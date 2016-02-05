@@ -24,9 +24,22 @@ gulp.task("webpack-dev-server", function() {
     // https://webpack.github.io/docs/configuration.html
     var compiler = webpack({
         context: __dirname + '/app',
+        entry: {
+            app: ['./js/index.jsx']
+        },
         debug: true,
         devtool: "#inline-source-map",
+        module: {
+            loaders: [
+                {
+                    test: /\.jsx?$/,
+                    exclude: /node_modules/,
+                    loaders: ['react-hot', 'babel?presets[]=react,presets[]=es2015']
+                },
+            ]
+        },
         output: {
+            filename: '[name].js',
             path: path.resolve(__dirname, "_tmp")
         }
     });
