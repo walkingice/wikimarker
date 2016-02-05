@@ -3,3 +3,4 @@
   console.log('Testing', test);
 }
 
+export const foo = 'bar';
