@@ -1,0 +1,9 @@
+{
+  "name": "wikimarker",
+  "version": "0.0.1",
+  "description": "A simple web app for wiki bookmark",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julian_Chu (http://julianchu.net)"
+}
