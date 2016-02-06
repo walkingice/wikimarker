@@ -1,12 +1,14 @@
 var path = require('path');
 
 var output = '_build';
+var webpack = require('webpack');
 
 // https://webpack.github.io/docs/configuration.html
 module.exports = {
     context: __dirname + '/app',
     entry: {
-        app: ['./js/index.jsx']
+        app: ['./js/index.jsx'],
+        vendor: ['react']
     },
     module: {
         loaders: [
@@ -20,5 +22,9 @@ module.exports = {
     output: {
         filename: '[name].js',
         path: path.resolve(__dirname, output)
-    }
+    },
+    plugins: [
+        new webpack.optimize.CommonsChunkPlugin(/* chunkName= */"vendor",
+                                                /* filename= */"vendor.js")
+    ]
 }

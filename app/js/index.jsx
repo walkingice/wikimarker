@@ -1,6 +1,7 @@
-{
-  let test = 'es6';
-  console.log('Testing', test);
-}
+import React from 'react';
+import ReactDom from 'react-dom';
 
-export const foo = 'bar';
+ReactDom.render(
+  <div>Render by react</div>,
+  document.getElementById('app')
+);
