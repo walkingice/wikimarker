@@ -32,7 +32,6 @@ gulp.task("webpack-dev-server", function() {
     new WebpackDevServer(compiler, {
         contentBase: TMP,
         hot: true,
-        inline: true,
         progress: true,
         stats: {
             colors: true
