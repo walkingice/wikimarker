@@ -27,6 +27,7 @@
     "gulp-load-plugins": "^1.2.0",
     "gulp-rimraf": "^0.2.0",
     "gulp-util": "^3.0.7",
+    "json-loader": "^0.5.4",
     "jsx-loader": "^0.13.2",
     "mocha": "^2.4.5",
     "webpack": "^1.12.13",
