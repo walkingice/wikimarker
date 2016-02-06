@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import {Router, Route, Redirect} from 'react-router'
+import {createStore} from 'redux';
+import {Provider} from 'react-redux';
+
+import Reducer from './reducer.jsx';
 
 import App from './comps/App.jsx';
 import Lists from './comps/Lists.jsx';
@@ -12,9 +16,13 @@ const routes = <Route component={App}>
   <Redirect from="*" to="/"/>
 </Route>
 
+const store = createStore(Reducer, {title: "Testing"});
+
 ReactDom.render(
-  <Router>
-    {routes}
-  </Router>,
+  <Provider store={store}>
+    <Router>
+      {routes}
+    </Router>
+  </Provider>,
   document.getElementById('app')
 );

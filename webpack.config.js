@@ -8,7 +8,7 @@ module.exports = {
     context: __dirname + '/app',
     entry: {
         app: ['./js/index.jsx'],
-        vendor: ['react']
+        vendor: ['react', 'react-dom', 'react-redux', 'react-router', 'immutable'],
     },
     module: {
         loaders: [
