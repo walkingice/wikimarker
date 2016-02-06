@@ -3,8 +3,10 @@ import ReactDom from 'react-dom';
 import {Router, Route, Redirect} from 'react-router'
 import {createStore} from 'redux';
 import {Provider} from 'react-redux';
+import {fromJS}  from 'immutable';
 
 import Reducer from './reducer.jsx';
+import {setStartPage} from './action_creator.jsx';
 
 import App from './comps/App.jsx';
 import Lists from './comps/Lists.jsx';
@@ -16,7 +18,7 @@ const routes = <Route component={App}>
   <Redirect from="*" to="/"/>
 </Route>
 
-const store = createStore(Reducer, {title: "Testing"});
+const store = createStore(Reducer, fromJS());
 
 ReactDom.render(
   <Provider store={store}>
@@ -26,3 +28,4 @@ ReactDom.render(
   </Provider>,
   document.getElementById('app')
 );
+
