@@ -1,0 +1,6388 @@
+{
+  "parse": {
+    "title": "November 1",
+    "pageid": 21460,
+    "links": [
+      {
+        "ns": 4,
+        "exists": "",
+        "*": "Wikipedia:Protection policy"
+      },
+      {
+        "ns": 100,
+        "exists": "",
+        "*": "Portal:Current events/2015 November 1"
+      },
+      {
+        "ns": 100,
+        "exists": "",
+        "*": "Portal:Current events/2014 November 1"
+      },
+      {
+        "ns": 100,
+        "exists": "",
+        "*": "Portal:Current events/2013 November 1"
+      },
+      {
+        "ns": 100,
+        "exists": "",
+        "*": "Portal:Current events/2012 November 1"
+      },
+      {
+        "ns": 100,
+        "exists": "",
+        "*": "Portal:Current events/2011 November 1"
+      },
+      {
+        "ns": 100,
+        "exists": "",
+        "*": "Portal:Current events/2010 November 1"
+      },
+      {
+        "ns": 100,
+        "exists": "",
+        "*": "Portal:Current events/2009 November 1"
+      },
+      {
+        "ns": 100,
+        "exists": "",
+        "*": "Portal:Current events/2008 November 1"
+      },
+      {
+        "ns": 100,
+        "exists": "",
+        "*": "Portal:Current events/2007 November 1"
+      },
+      {
+        "ns": 100,
+        "exists": "",
+        "*": "Portal:Current events/2006 November 1"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1141"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1179"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "11th Dalai Lama"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1214"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1296"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1339"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1348"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1351"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1391"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1399"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1423"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1461"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1503"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1512"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1520"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1526"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1530"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1539"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1546"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1549"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1555"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1567"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1570"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1585"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1588"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1596"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1604"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1607"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1611"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1612"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1625"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1636"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1642"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1643"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1661"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1666"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1676"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1678"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1683"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1688"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1700"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1720"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1727"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1755"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1755 Lisbon earthquake"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1757"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1762"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1765"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1769"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1778"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1782"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1790"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1800"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1805"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1808"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1814"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1831"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1838"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1839"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1847"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1848"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1849"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1852"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1859"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1860"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1861"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1862"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1864"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1870"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1871"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1872"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1876"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1877"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1878"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1880"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1881"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1884"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1886"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1887"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1888"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1889"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1894"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1896"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1897"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1898"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1901"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1902"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1903"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1905"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1906"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1907"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1911"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1912"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1914"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1915"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1916"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1917"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1918"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1919"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1920"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1921"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1922"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1923"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1924"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1926"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1927"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1928"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1929"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1930"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1931"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1932"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1933"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1934"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1935"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1936"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1937"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1938"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1939"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1940"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1941"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1942"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1943"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1944"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1945"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1946"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1947"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1948"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1949"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1950"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1951"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1952"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1953"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1954"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1955"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1956"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1957"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1958"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1959"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1960"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1961"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1962"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1963"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1963 South Vietnamese coup"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1964"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1965"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1966"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1967"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1968"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1969"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1970"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1971"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1972"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1973"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1974"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1975"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1976"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1977"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1978"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1979"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1980"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1981"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1982"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1983"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1984"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1985"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1986"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1987"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1988"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1991"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1993"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1994"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1995"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1996"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1997"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "1999"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "2000"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "2001"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "2002"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "2004"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "2005"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "2006"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "2007"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "2008"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "2009"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "2010"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "2011"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "2012"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "2012 Riyadh truck crash"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "2013"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "2013 Los Angeles International Airport shooting"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "2014"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "2015"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "2016"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "22 October"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "365"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "846"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "955"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "996"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "A-ha"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "A. N. Sherwin-White"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "A. R. Gurney"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Abednigo Ngcobo"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Abolition of the Ottoman sultanate"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Abraham Lincoln"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Adam Sapieha"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Aditya Dev"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Adrienne Shelly"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Agustín García Calvo"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ahmed Muhtar Pasha"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ai Fukuhara"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Aircraft carrier"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Airplay (band)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Aishwarya Rai"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Al Arbour"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Albany, Western Australia"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Alberto Natusch"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Alemanni"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Alex Prager"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Alex Wolff"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Alexander III of Russia"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Alexander Samoylov"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Alfio Basile"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Alfred Jarry"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Alfred Wegener"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Algeria"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Algerian War of Independence"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "All Saints' Day"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "All Saints' Flood (1570)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Amadeus VII, Count of Savoy"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Amani Abeid Karume"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "America (band)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "American Civil War"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ananda College"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Andhra Pradesh"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Anine Kruse"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Anna of Austria, Queen of Spain"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Annie Oakley"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ansel Adams"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Anthony Kiedis"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Anthony van Hoboken"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Antigua and Barbuda"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Antoine Kohn"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Antonio Canova"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Apparatjik"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Arabic alphabet"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Arbor Day"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Archbishop"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Arecibo, Puerto Rico"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Arecibo Observatory"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Argentina"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Arne Pedersen"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Arnold Pihlak"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Arthur Legat"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Artificial insemination"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Assia (singer)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Assumption of Mary"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Athenagoras I of Constantinople"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Atom bomb"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Attempted assassination of Harry S. Truman"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Attitudes (band)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Austrian Empire"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Austro-Hungarian Empire"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Austromoine"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Azerbaijan Soviet Socialist Republic"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Bad Company"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Banat Republic"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Barbara Becker"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Barbara Bosson"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Barry Sadler"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Battle of Coronel"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Battle of Empress Augusta Bay"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Battle of Walcheren Causeway"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Beat Happening"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Belita Moreno"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Benignus of Dijon"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Bernard Erhard"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Beth Leavel"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Betsy Palmer"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Beverly Schmidt Blossom"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Bhutan"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Big & Rich"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Big Kenny"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Bilgin Defterli"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Bill Anderson (singer)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Bill Tilghman"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Bill Woodrow"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Blair House"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Blind Faith"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Blood, Sweat & Tears"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Bo Bice"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Bobby Heenan"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Boies Penrose"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Bombing of Rabaul (November 1943)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Boris Stürmer"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Boston"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Boston University"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Bougainville Campaign"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Bougainville Island"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Brad Armstrong (wrestler)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Bradley Orr"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Brazil"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Brittany Maynard"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Brooklyn"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Bruce Grocott, Baron Grocott"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Buffalo Bill"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Buffalo Bill's Wild West Show"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Bulgaria"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Caesarius of Africa"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Cahit Aral"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Calan Gaeaf"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Calvin Johnson (musician)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Cape Lookout (North Carolina)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Carla van de Puttelaar"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Carlos Paião"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Carlos Páez Vilaró"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Carlos Saavedra Lamas"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Catherine Jagiellon"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Charles Brantley Aycock"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Charles Duncan Michener"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Charles II of Spain"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Charles Weeghman"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Charlie O'Donnell"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Chen Zude"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Chief Justice of India"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Chief Secretary to the Treasury"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Children's Day"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Chile"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Chong Chee Kin"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Chosuke Ikariya"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Circumnavigation"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Clarence E. Miller"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Club Cinq-Sept fire"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Coco Crisp"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Colette Renard"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Congress of Vienna"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Cool Rays"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Coronation"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "County (United States)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "County Tipperary"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Coup d'état"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Craig Serjeant"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Croatia"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Dale Carnegie"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Dan Peek"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Daran Norris"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "David Foster"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "David of Trebizond"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Day of the Dead"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Day of the Innocents"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Def Leppard"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Delawana (schooner)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Dennis Muren"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Destiny's Child"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Diana Wellesley, Duchess of Wellington"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Diego Sarmiento de Acuña, 1st Count of Gondomar"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Distance (band)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Dixie Lee"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Dmitry Pozharsky"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Dogmatic definition"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Dominique Mbonyumutwa"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Donald Saddler"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Dorothy Howell Rodham"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Douglas DC-6"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "DuSable Museum of African American History"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Dub Narcotic Sound System"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Dwight D. Eisenhower"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ecuador"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ecumenical Patriarch of Constantinople"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Eddie Colman"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Edmund Blunden"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Edmund Burke"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Edward Greeves, Jr."
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Edward Said"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Edward Van Sloan"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ekrem Akurgal"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Electronic Frontier Foundation"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Emma Albani"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Emmaline Henry"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Empress Matilda"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Endel Laas"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Eniwetok"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Eriko Hara"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ernesto Presas"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Esperanto (schooner)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Esther Hautzig"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Eugen Jochum"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "European Union"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Eyþór Arnarson"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ezra Pound"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "F. J. Robinson, 1st Viscount Goderich"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Fabrice Luchini"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Family (band)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Feast day"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Feministing"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ferdinand Magellan"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Fernando Valenzuela"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "First Australian Imperial Force"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Florent Carton Dancourt"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Folk Catholicism"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "France Antarctique"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Francis Arinze"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "François-Marie, comte de Broglie"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Fred Thompson"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "French Revolution"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Fresnel lens"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Gaelic Athletic Association"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Garlieb Merkel"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Gary Howell"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Gary Player"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Gaul"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Geoff Horsfield"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Georg Philipp Harsdörffer"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "George Armstrong (footballer)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "George B. McClellan"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "George Kenner"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "George S. Irving"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Georgios Papandreou"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Gerald Ratner"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Geto Boys"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Gillian Knight"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ginger Baker's Air Force"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Gisbertus Voetius"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Giulio Romano"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Glorious Revolution"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Go (game)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Gordon R. Dickson"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Governor of North Carolina"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Governor of Rhode Island"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Grantland Rice"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Gregorian calendar"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Griselio Torresola"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Guadalcanal Campaign"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Guatemala"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Guillaume Durand"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Gunther Plaut"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Gustav IV Adolf of Sweden"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Günter Schabowski"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "HMS Good Hope (1901)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "HMS Monmouth (1901)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Haiti"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Hakimullah Mehsud"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Halifax, Nova Scotia"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Hannah Höch"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Harald Quandt"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Harry Atkinson"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Harry S. Truman"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Haryana"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Haryana Foundation Day"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Health Day"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Hellevoetsluis"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Hello Kitty"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Henri Troyat"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Henry I, Duke of Bavaria"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Hermann Bondi"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Hermann Braun"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Hermann Broch"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Hernandez, New Mexico"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Hillary Clinton"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Hiệp Hòa"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Holy day of obligation"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Honda"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Honda Accord"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Honinbo Shuei"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Houston McTear"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Hugo Distler"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Huguenot"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Hutu"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Hydrogen bomb"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ileana D'Cruz"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Independence"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Independence Day (Antigua and Barbuda)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Inka Friedrich"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Italo-Turkish War"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ivan Shuvalov"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "J. R. Jayewardene"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Jackie Fairweather"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Jacques Attali"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Jacques Piccard"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Jacques Plante"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Jadwiga Smosarska"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "James Bradford (weightlifter)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "James Broderick"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "James J. Kilpatrick"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "James Sherard"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Jan Brożek"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Jan Davis"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Jean-Luc Pépin"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Jean-Pierre Roy"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Jean Coutu (actor)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Jean Daurat"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Jean Nicolet"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Jenny McCarthy"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Jeremy Hunt"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Jessica Valenti"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Jiang Yuyuan"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Jim Steinman"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Jim Steinmeyer"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Joe DeRenzo"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Joel Barnett, Baron Barnett"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Johan Wagenaar"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "John Adams"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "John Clark (actor)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "John F. Kennedy"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "John III of Sweden"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "John McEnery"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "John S. Romanides"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "John Strype"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "John Taylor (Mormon)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "John V, Duke of Brittany"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "John W. Peterson"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "John Williamson (singer)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "John Y. McCollister"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Johnny Indrisano"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Jon Wilkin"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Josh Wicks"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Kanyakumari"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Karnataka"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Katja Riemann"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Katsuhisa Hattori"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ken Miles"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Kerala"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Keryn Jordan"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Kim Krizan"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "King James II of England"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "King Vidor"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "King of Valencia"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Kinky Friedman"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Kitay-gorod"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Kombatan"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Konrad Mägi"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Kool & the Gang"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Kraków"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ksenija Balta"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "L. S. Lowry"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "LaTavia Roberson"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Larry Flynt"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Larry Flynt Publications"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Latin alphabet"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Leap year"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Lebanon"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Leon Jaworski"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Leopold III, Duke of Austria"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Library of Congress"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Lighthouse"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Lisbon"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "List of First Ladies of the United States"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "List of Ministers of Justice of Imperial Russia"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "List of Ottoman Grand Viziers"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "List of Prime Ministers of Greece"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Lithuania"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Logan Marshall-Green"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Longmont, Colorado"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Los Angeles International Airport"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Lotus Software"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Lou Donaldson"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Louis Dewis"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Louis the Stammerer"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Louise Boije af Gennäs"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Lutheran"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Luxembourg"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Luís Manuel Ferreira Delgado"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Lyle Lovett"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Lynne Russell"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Maastricht Treaty"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Mac Dre"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Mackinac Bridge"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Magne Furuholmen"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Maharashtra Andhashraddha Nirmoolan Samiti"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Malbone Street Wreck"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Malta"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Mamie Eisenhower"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Man o' War"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Manchuria"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Manfred Mann's Earth Band"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Manju Warrier"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Manuel Ferrara"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Marcia Wallace"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Margaret Taylor-Burroughs"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Mark Austin (journalist)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Mark Hughes"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Marshall Islands"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Mary Kate Schellhardt"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Marysville, Ohio"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Masahiro Tanaka"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Massachusetts"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Matanikau Offensive"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Matt L. Jones"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Matt Moulson"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Maurice Woods"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Mauritius"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Max Adrian"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Maxie Rosenbloom"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Medical school"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Megan Wing"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Mehmed VI"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Menachem Elon"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Meredith Kercher"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Metal Yoshida"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Meteorology"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Mia Korf"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Micaela Schäfer"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Michael D. Griffin"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Michael Piller"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Michał Sopoćko"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Michelangelo"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Mike Burney"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Mike Mendoza"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Milan Dudić"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Miloš Krasić"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Mingun Sayadaw"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Minister of Labour (Canada)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ministry of Science, Industry and Technology (Turkey)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Miss World 1994"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Mitch Kapor"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Mitch Lucker"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Montreal Canadiens"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Moonrise, Hernandez, New Mexico"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Moshe Teitelbaum (Satmar)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Motion Picture Association of America"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Motion Picture Association of America film rating system"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Murviedro"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Mysore"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Mysore State"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "NHL"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Napoleon I"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Napoleonic Wars"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Narendra Dabholkar"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Nat and Alex Wolff"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Natalia Tena"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Nathaniel Mayer"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "National Geographic (magazine)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "National Liberation Front (Algeria)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "National Weather Service"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Nevada"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Nicholas Eudaimonoioannes"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Nicholas II of Russia"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Nicholas Mavroules"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Nick Owen"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Nicky Grist"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Nicolas Boileau-Despréaux"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Nikolay Przhevalsky"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Noah Beery, Jr."
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Nobel Peace Prize"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Nobel Prize in Literature"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Nobel Prize in Physics"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Nobel Prize in Physiology or Medicine"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Nordahl Grieg"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Norman Krasna"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "North Korea"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 10"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 11"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 12"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 13"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 14"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 15"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 16"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 17"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 18"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 19"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 1 (Eastern Orthodox liturgics)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 2"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 20"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 21"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 22"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 23"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 24"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 25"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 26"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 27"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 28"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 29"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 3"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 30"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 4"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 5"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 6"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 7"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 8"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "November 9"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Nuclear proliferation"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Olaf Kopvillem"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Old High German"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Old Style"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Oliver Plunkett"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Operation Buster–Jangle"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Operation Ivy"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Oscar Collazo"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Oscar Temaru"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ostarrîchi"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Othello"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Otto III, Holy Roman Emperor"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ottoman Empire"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Oud"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Papal infallibility"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Park Shin-yang"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Parris Island"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Pascual Pérez (baseball)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Patrik Ringborg"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Paul-Émile Borduas"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Paul Dennis Reid"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Paul Dickov"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Paul Tibbets"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Paul Wellings"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Pavel Milyukov"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Peace Corps"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Penn Badgley"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Perikles Ioannidis"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Peru"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Peter Ostrum"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Phil Myre"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Phil Silvers"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Philip II of France"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Philip Noel-Baker, Baron Noel-Baker"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Philippines"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Pierre Pithou"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Piet Rietveld"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Pitsj"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Pope John Paul II"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Pope Julius II"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Pope Pius XII"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Premier of Alberta"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Premier of Quebec"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "President of French Polynesia"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "President of Sri Lanka"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "President of The Church of Jesus Christ of Latter-day Saints"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "President of Turkey"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "President of Zanzibar"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Priesthood"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Prime Minister of Lebanon"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Prime Minister of New Zealand"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Prime Minister of the United Kingdom"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Princess Elisabeth of Hesse and by Rhine (1864–1918)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Province of New York"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Provinces of New Zealand"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Public holidays in Algeria"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Public holidays in Bhutan"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Public holidays in Bulgaria"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Public holidays in India"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Puerto Rico"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Pál Luthár"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "R. W. B. Lewis"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Rabaul"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Rabbit"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Rachel Ticotin"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Radio telescope"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Rafic Hariri"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ralph Klein"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ramesh Chandra Lahoti"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Rapid transit"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Red Hot Chili Peppers"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Reece Brown"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Reflections on the Revolution in France"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "René Lévesque"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Republic of China (1912–49)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Rhine"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ric Grech"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ricardo Rodríguez (racing driver)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Richmond, Virginia"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Rick Allen (drummer)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Rio de Janeiro"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Riyadh"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Robert B. Laughlin"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Robert Foxworth"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Robert H. Rines"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Robert Hart (musician)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Robert MacArthur"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Robert Staughton Lynd"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Rodong Sinmun"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Roger Kellaway"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Roger Quilter"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Roman Catholic Church"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ronald Bell (musician)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Royal Navy"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Rudolf IV, Duke of Austria"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Russ Kemmerer"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Russian Empire"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Rwanda"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "S. Ali Raza"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Saint-Laurent-du-Pont"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Sakutarō Hagiwara"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Salvatore Adamo"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Samoa"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Santa Muerte"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Saudi Arabia"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Seabiscuit"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Sean Roberge"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Secretary of State for Commonwealth Relations"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Secretary of State for Health"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Seljuq Turks"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Serbia and Montenegro"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Serf"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Serge Garant"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Sergei Artyukhin"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Severo Ochoa"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Seychelles"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Shakir Stewart"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Shannon Tavarez"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Sharron Davies"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Sherwin Campbell"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Shizuka Kamei"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Sholem Asch"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Shunsuke Kikuchi"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Siege of Sinope"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Siegfried Jamrowski"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Sigma Phi Epsilon"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Sinop, Turkey"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Sippie Wallace"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Sistine Chapel"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Skitch Henderson"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Skylark (Canadian band)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Slovakia"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Slovenia"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Solomon Islands"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Sophie B. Hawkins"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Southwestern United States"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Spencer Perceval"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Springhill, Nova Scotia"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Springhill mining disaster"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Sri Lanka"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Stalinism"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Stamp Act 1765"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "State Duma"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "States Reorganisation Act, 1956"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Static-X"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Stephen, King of England"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Stephen Antonakos"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Stephen Crane"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Strait of Magellan"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Student fraternities and sororities in North America"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Suicide Silence"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Susanna Clarke"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Süleyman Demirel"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Taliban"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Tamil Nadu"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Tanel Toom"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Tato Laviera"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ted Lowe"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Terry Knight"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Terry Knight and the Pack"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "The Company of Snakes"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "The Drifters (Japanese band)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "The Go Team"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "The Jones Gang"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "The Microphones"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "The Tempest"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Theodor Mommsen"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Theodore Hall"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Thirteen Colonies"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Thizz Entertainment"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Thomas Edison"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Thomas R. Fitzgerald (judge)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Thurles"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Tie Domi"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Tim Cook"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Time of Troubles"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Tina Arena"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Toni Collette"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Toussaint-Guillaume Picquet de la Motte"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Traffic (band)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Transportation Security Administration"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Tsunami"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Turkey"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Turkish alphabet"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Turkmenistan"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Tutsi"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Tyler Reks"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Ukraine"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Umberto Agnelli"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Union Army"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Union of Valencia"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "United Airlines Flight 629"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "United Nations"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "United States Marine Corps"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "University of Richmond"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "V. V. S. Laxman"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Valentinian I"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Vic Power (baseball)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Victor Sen Yung"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Victoria de los Ángeles"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Vikram Chatwal"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "W. E. D. Ross"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Wadih El Safi"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Walcheren"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Waldemar Hammenhög"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Wales"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Walter Payton"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "War Admiral"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "War of the Third Coalition"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Warren Spragg"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Watergate scandal"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Wayne Static"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "White House"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Whitehall Palace"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "William Coddington"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "William III of Orange"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "William Mathias"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "William Merritt Chase"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "William Shakespeare"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "William Styron"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Willie D"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Wind of destruction"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Winfield Scott"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Wizzard"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Women Strike for Peace"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "World War II"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Wálter Guevara"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Yahya Kemal Beyatlı"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Yma Sumac"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Yossef Gutfreund"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Yuko Ogura"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Yuko Shimizu"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Étienne de La Boétie"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 1"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 10"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 11"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 12"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 13"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 14"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 15"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 16"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 17"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 18"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 19"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 2"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 20"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 21"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 22"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 23"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 24"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 25"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 26"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 27"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 28"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 29"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 3"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 30"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 4"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 5"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 6"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 7"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 8"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "April 9"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 1"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 10"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 11"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 12"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 13"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 14"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 15"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 16"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 17"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 18"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 19"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 2"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 20"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 21"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 22"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 23"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 24"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 25"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 26"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 27"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 28"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 29"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 3"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 30"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 31"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 4"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 5"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 6"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 7"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 8"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "August 9"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Beltane"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 1"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 10"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 11"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 12"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 13"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 14"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 15"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 16"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 17"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 18"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 19"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 2"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 20"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 21"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 22"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 23"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 24"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 25"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 26"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 27"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 28"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 29"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 3"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 30"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 31"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 4"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 5"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 6"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 7"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 8"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "December 9"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 1"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 10"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 11"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 12"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 13"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 14"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 15"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 16"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 17"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 18"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 19"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 2"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 20"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 21"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 22"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 23"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 24"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 25"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 26"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 27"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 28"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 29"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 3"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 30"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 4"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 5"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 6"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 7"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 8"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "February 9"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "International observance"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 0"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 1"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 10"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 11"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 12"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 13"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 14"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 15"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 16"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 17"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 18"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 19"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 2"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 20"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 21"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 22"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 23"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 24"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 25"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 26"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 27"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 28"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 29"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 3"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 30"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 31"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 4"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 5"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 6"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 7"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 8"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "January 9"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 1"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 10"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 11"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 12"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 13"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 14"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 15"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 16"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 17"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 18"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 19"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 2"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 20"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 21"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 22"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 23"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 24"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 25"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 26"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 27"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 28"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 29"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 3"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 30"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 31"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 4"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 5"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 6"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 7"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 8"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "July 9"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 1"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 10"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 11"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 12"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 13"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 14"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 15"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 16"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 17"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 18"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 19"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 2"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 20"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 21"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 22"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 23"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 24"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 25"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 26"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 27"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 28"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 29"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 3"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 30"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 4"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 5"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 6"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 7"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 8"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "June 9"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Karnataka Rajyotsava"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Kerala Piravi"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 0"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 1"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 10"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 11"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 12"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 13"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 14"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 15"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 16"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 17"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 18"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 19"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 2"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 20"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 21"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 22"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 23"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 24"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 25"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 26"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 27"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 28"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 29"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 3"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 30"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 31"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 4"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 5"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 6"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 7"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 8"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "March 9"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 1"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 10"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 11"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 12"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 13"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 14"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 15"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 16"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 17"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 18"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 19"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 2"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 20"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 21"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 22"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 23"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 24"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 25"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 26"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 27"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 28"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 29"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 3"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 30"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 31"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 4"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 5"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 6"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 7"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 8"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "May 9"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "National Bison Day"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Neopagan"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 1"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 10"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 11"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 12"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 13"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 14"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 15"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 16"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 17"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 18"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 19"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 2"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 20"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 21"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 22"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 23"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 24"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 25"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 26"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 27"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 28"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 29"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 3"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 30"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 31"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 4"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 5"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 6"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 7"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 8"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "October 9"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Samhain"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 1"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 10"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 11"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 12"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 13"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 14"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 15"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 16"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 17"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 18"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 19"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 2"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 20"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 21"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 22"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 23"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 24"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 25"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 26"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 27"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 28"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 29"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 3"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 30"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 4"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 5"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 6"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 7"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 8"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "September 9"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Wheel of the Year"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "World Vegan Day"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Months"
+      },
+      {
+        "ns": 11,
+        "exists": "",
+        "*": "Template talk:Months"
+      }
+    ]
+  }
+}
