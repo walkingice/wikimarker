@@ -13,6 +13,8 @@ import Detail from './comps/Detail.jsx';
 import {setStorage} from './lib/storage.jsx';
 import Logger from './log_middleware.jsx';
 
+import "../style/app.less";
+
 const routes = <Route component={App}>
   <Route path="/" component={Lists}/>
   <Route path="/detail" component={Detail} />
