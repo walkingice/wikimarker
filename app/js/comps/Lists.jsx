@@ -5,6 +5,8 @@ import {setListTitle, setList} from '../action_creator.jsx';
 import {parseDate, randomPick} from '../lib/helper.jsx';
 import {getLinks} from '../lib/api.jsx';
 
+import Row from './Row.jsx';
+
 const Lists = React.createClass({
   componentDidMount: function () {
     updatePageTitle(this, new Date());
@@ -21,7 +23,7 @@ const Lists = React.createClass({
 
     var list = this.props.pages ?
       <ul>{this.props.pages.map(function(page) {
-        return <li key={page}>{page}</li>
+        return <li key={page}><Row title={page}/></li>
       })}</ul>: null;
 
     return <div>Lists {title}

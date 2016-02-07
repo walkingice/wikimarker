@@ -11,3 +11,10 @@ export function setList (links) {
     links
   }
 }
+
+export function setDetail (title) {
+  return {
+    type: 'SET_DETAIL',
+    title
+  }
+}
