@@ -18,3 +18,11 @@ export function setDetail (title) {
     title
   }
 }
+
+export function toggleBookmark (bookmark) {
+  return {
+    type: 'TOGGLE_BOOKMARK',
+    bookmark
+  }
+}
+

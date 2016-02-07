@@ -1,4 +1,6 @@
-import {List, Map} from 'immutable';
+import {fromJS, Map} from 'immutable';
+
+import {toggleItem, getBookmarks} from './lib/storage.jsx';
 
 function setListTitle (state, title) {
   return state.set('title', title);
@@ -9,7 +11,17 @@ function setList (state, links) {
 }
 
 function setDetail (state, title) {
-  return state.set('detail', title);
+  let bmks = getBookmarks();
+  let exists = !!bmks[title];
+  return state.set('detail', title).set('saved', exists);
+}
+
+function toggleBookmark (state, bookmark) {
+  toggleItem(bookmark);
+  let bmks = getBookmarks();
+  let exists = !!bmks[bookmark];
+  return state.set('bookmarks', fromJS(Object.keys(bmks)))
+    .set('saved', exists);
 }
 
 export default function (state = Map(), action) {
@@ -20,6 +32,8 @@ export default function (state = Map(), action) {
       return setList(state, action.links);
     case 'SET_DETAIL':
       return setDetail(state, action.title);
+    case 'TOGGLE_BOOKMARK':
+      return toggleBookmark(state, action.bookmark);
   }
   return state;
 }

@@ -10,7 +10,7 @@ import Reducer from './reducer.jsx';
 import App from './comps/App.jsx';
 import Lists from './comps/Lists.jsx';
 import Detail from './comps/Detail.jsx';
-
+import {setStorage} from './lib/storage.jsx';
 import Logger from './log_middleware.jsx';
 
 const routes = <Route component={App}>
@@ -19,9 +19,10 @@ const routes = <Route component={App}>
   <Redirect from="*" to="/"/>
 </Route>
 
-
 let createStoreWithMiddleware = applyMiddleware(Logger)(createStore);
 const store = createStoreWithMiddleware(Reducer, fromJS({links:[]}));
+
+setStorage(localStorage);
 
 ReactDom.render(
   <Provider store={store}>
