@@ -19,6 +19,13 @@ export function setDetail (title) {
   }
 }
 
+export function setContent (text) {
+  return {
+    type: 'SET_CONTENT',
+    htmlText: text
+  }
+}
+
 export function toggleBookmark (bookmark) {
   return {
     type: 'TOGGLE_BOOKMARK',

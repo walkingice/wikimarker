@@ -18,6 +18,10 @@ function setDetail (state, title) {
   return state.set('detail', title).set('saved', exists);
 }
 
+function setContent (state, text) {
+  return state.set('content', text)
+}
+
 function toggleBookmark (state, bookmark) {
   toggleItem(bookmark);
   let bmks = getBookmarks();
@@ -34,6 +38,8 @@ export default function (state = Map(), action) {
       return setList(state, action.links);
     case 'SET_DETAIL':
       return setDetail(state, action.title);
+    case 'SET_CONTENT':
+      return setContent(state, action.htmlText);
     case 'TOGGLE_BOOKMARK':
       return toggleBookmark(state, action.bookmark);
   }
