@@ -8,3 +8,22 @@ export function parseDate (dateObj) {
   let d = dateObj.getUTCDate();
   return `${m}_${d}`;
 }
+
+/* links is an array of strings. pick 10 random strings from it. */
+export function randomPick(links, limit = 10) {
+
+  // only accept alphabet and white-space
+  let exp = /^[a-zA-Z\s]+$/;
+
+  let ls = links.filter(function (val) {
+    return exp.test(val);
+  });
+
+  let output = [];
+  while(ls.length !== 0 && output.length < limit) {
+    let idx = Math.floor(Math.random() * ls.length);
+    output.push(ls.splice(idx, 1).shift());
+  }
+
+  return output;
+}
