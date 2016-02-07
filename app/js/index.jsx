@@ -17,7 +17,7 @@ const routes = <Route component={App}>
   <Redirect from="*" to="/"/>
 </Route>
 
-const store = createStore(Reducer, fromJS());
+const store = createStore(Reducer, fromJS({links:[]}));
 
 ReactDom.render(
   <Provider store={store}>
