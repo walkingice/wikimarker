@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import {Router, Route, Redirect} from 'react-router'
-import {createStore} from 'redux';
+import {createStore, applyMiddleware} from 'redux';
 import {Provider} from 'react-redux';
 import {fromJS}  from 'immutable';
 
@@ -11,13 +11,17 @@ import App from './comps/App.jsx';
 import Lists from './comps/Lists.jsx';
 import Detail from './comps/Detail.jsx';
 
+import Logger from './log_middleware.jsx';
+
 const routes = <Route component={App}>
   <Route path="/" component={Lists}/>
   <Route path="/detail" component={Detail} />
   <Redirect from="*" to="/"/>
 </Route>
 
-const store = createStore(Reducer, fromJS({links:[]}));
+
+let createStoreWithMiddleware = applyMiddleware(Logger)(createStore);
+const store = createStoreWithMiddleware(Reducer, fromJS({links:[]}));
 
 ReactDom.render(
   <Provider store={store}>
