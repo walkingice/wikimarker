@@ -6,7 +6,6 @@ import {Provider} from 'react-redux';
 import {fromJS}  from 'immutable';
 
 import Reducer from './reducer.jsx';
-import {setStartPage} from './action_creator.jsx';
 
 import App from './comps/App.jsx';
 import Lists from './comps/Lists.jsx';

@@ -1,13 +1,13 @@
 import {List, Map} from 'immutable';
 
-function setStartPage (state, title) {
+function setListTitle (state, title) {
   return state.set('title', title);
 }
 
 export default function (state = Map(), action) {
   switch (action.type) {
-    case 'SET_START':
-      return setStartPage(state, action.pageTitle);
+    case 'SET_LIST':
+      return setListTitle(state, action.listTitle);
   }
   return state;
 }

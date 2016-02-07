@@ -1,7 +1,8 @@
 import React from 'react';
 import {connect} from 'react-redux';
 
-import {setStartPage} from '../action_creator.jsx';
+import {setListTitle} from '../action_creator.jsx';
+import {parseDate} from '../lib/helper.jsx';
 
 const Lists = React.createClass({
   componentDidMount: function () {
@@ -16,9 +17,10 @@ const Lists = React.createClass({
 });
 
 function updatePageTitle(ctx, dateObj) {
+  let title = parseDate(dateObj);
   // simulate ajax call
   setTimeout(function () {
-    ctx.props.setStartPage(dateObj);
+    ctx.props.setListTitle(title);
   }, 1000);
 }
 
@@ -28,4 +30,4 @@ function selector (state) {
   }
 }
 
-export default connect(selector, {setStartPage})(Lists);
+export default connect(selector, {setListTitle})(Lists);
