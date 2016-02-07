@@ -7,7 +7,9 @@ function setListTitle (state, title) {
 }
 
 function setList (state, links) {
-  return state.set('links', links);
+  let bmks = getBookmarks();
+  return state.set('links', fromJS(links))
+    .set('bookmarks', fromJS(Object.keys(bmks)));
 }
 
 function setDetail (state, title) {

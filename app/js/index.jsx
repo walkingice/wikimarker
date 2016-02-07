@@ -20,7 +20,7 @@ const routes = <Route component={App}>
 </Route>
 
 let createStoreWithMiddleware = applyMiddleware(Logger)(createStore);
-const store = createStoreWithMiddleware(Reducer, fromJS({links:[]}));
+const store = createStoreWithMiddleware(Reducer, fromJS({links:[], bookmarks:[]}));
 
 setStorage(localStorage);
 

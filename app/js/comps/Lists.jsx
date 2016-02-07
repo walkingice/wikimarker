@@ -26,8 +26,18 @@ const Lists = React.createClass({
         return <li key={page}><Row title={page}/></li>
       })}</ul>: null;
 
+    var bmks = this.props.bookmarks.length > 0 ?
+      <div>
+        <h1>Bookmarks</h1>
+        <ul>{this.props.bookmarks.map(function(bm) {
+          return <li key={bm}><Row title={bm}/></li>
+        })}</ul>
+      </div>
+      :null;
+
     return <div>Lists {title}
       {list}
+      {bmks}
     </div>
   }
 });
@@ -50,7 +60,8 @@ function updatePageTitle(ctx, dateObj) {
 
 function selector (state) {
   return {
-    pages: state.get('links'),
+    bookmarks: state.get('bookmarks').toArray(),
+    pages: state.get('links').toArray(),
     title: state.get('title')
   }
 }
