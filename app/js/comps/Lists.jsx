@@ -31,7 +31,7 @@ const Lists = React.createClass({
         return <li key={page}><Row title={page}/></li>
       })}</ul>: null;
 
-    return <div>
+    return <div id="list-page">
       <Banner title={this.props.title} />
       <div className="container-fluid">
         <div className="list-main row">

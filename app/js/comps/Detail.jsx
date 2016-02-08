@@ -15,28 +15,43 @@ const Detail = React.createClass({
     }
   },
   render: function () {
-    let content = this.props.content ?
-      <div dangerouslySetInnerHTML={{__html: this.props.content}} />
-      :null;
-    let star = this.props.saved ?
-      <span className="glyphicon glyphicon-star"/> :
-      <span className="glyphicon glyphicon-star-empty"/>;
+    let props = this.props;
+    if (!props.content) {
+      return null;
+    }
 
-    return this.props.pageName ?
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-md-3"></div>
-          <div className="col-md-6">
-            <span className="btn-bookmark label label-danger" onClick={this.toggle}>{star}</span>
-            <h1 className="page-header">{this.props.pageName}</h1>
-            <div id="#detail">
-              {content}
-            </div>
-          </div>
-          <div className="col-md-3"></div>
-        </div>
+    let content = props.content ?
+      <div dangerouslySetInnerHTML={{__html: props.content}} />
+        :null;
+    let star = props.saved ?
+      <span className="btn btn-success btn-sm pull-right" onClick={this.toggle}>
+        <i className="glyphicon glyphicon-star"></i>Bookmark
+      </span> :
+      <span className="btn btn-default btn-sm pull-right" onClick={this.toggle}>
+        <i className="glyphicon glyphicon-star-empty"></i>Bookmark
+      </span>;
+
+    let header = <div className="detail-header">
+      {star}
+      <span className="detail-title">{props.pageName}</span>
+    </div>
+    let body = <span>
+      {header}
+      <div className="detail-content">
+        {content}
       </div>
-      : <div>Detail without Page Name</div>;
+    </span>
+
+
+    let container = <div className="container-fluid">
+      <div className="row">
+        <div className="col-md-3"></div>
+        <div className="col-md-6">{body}</div>
+        <div className="col-md-3"></div>
+      </div>
+    </div>;
+
+    return container;
   }
 });
 

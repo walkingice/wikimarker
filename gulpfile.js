@@ -23,6 +23,11 @@ gulp.task('jade', function () {
         .pipe(gulp.dest(TMP + '/'));
 });
 
+gulp.task('images', function () {
+    return gulp.src('app/imgs/**/*')
+        .pipe(gulp.dest(TMP + '/imgs'));
+});
+
 gulp.task("webpack-dev-server", function() {
     var config = require('./webpack.config');
 
@@ -67,16 +72,17 @@ gulp.task('default', ['clean'], function () {
     gulp.start('dev');
 });
 
-gulp.task('html', ['jade'], function () {
-    return gulp.src([TMP + '/**/*.html'])
+gulp.task('html', ['jade', 'images'], function () {
+    return gulp.src([TMP + '/**/*.html', TMP + '/imgs/**/*'])
         .pipe(gulp.dest(OUTPUT));
 });
 
 gulp.task('build', ['html', 'webpack']);
 
 
-gulp.task('dev', ['jade'], function () {
+gulp.task('dev', ['jade', 'images'], function () {
     gulp.watch('app/**/*.jade', ['jade']);
+    gulp.watch('app/imgs/**/*', ['images']);
     gulp.start('webpack-dev-server');
 });
 

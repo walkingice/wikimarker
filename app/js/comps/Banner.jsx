@@ -29,7 +29,7 @@ const Banner = React.createClass ({
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-3"></div>
-            <div className="col-md-6">
+            <div className="col-md-3">
               <h1>Greeting</h1>
               <p>
                 This is a demo app. It fetch links from a page of <a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a>.
@@ -42,10 +42,13 @@ const Banner = React.createClass ({
               <DayPicker
                 onDayClick={this.onDayClick}
               />
-              <button className="btn btn-info" onClick={this.onApply}
+              <button className="btn btn-success" onClick={this.onApply}
                 disabled={this.props.title === this.state.chosen}>
                 Apply
               </button>
+
+            </div>
+            <div className="col-md-3">
             </div>
           </div>
         </div>

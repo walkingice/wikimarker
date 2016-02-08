@@ -4,9 +4,14 @@
 @reactive-heavy: #0088D1;
 @bg: white;
 @gutter: 10px;
+@list-bg-color: #75CEFE;
+@grey: #bdc3c7;
 
 // overwrite bootstrap variable
-@navbar-default-bg: #34495E;
+@navbar-default-bg: @reactive;
+@navbar-default-link-hover-color: white;
+@navbar-default-link-hover-bg: @reactive-heavy;
+@navbar-default-link-active-bg: white;
 @navbar-default-link-color: white;
 
 #nav {
@@ -17,15 +22,23 @@
     }
 }
 
+#nav-logo {
+    height: 100%;
+}
+
 #app {
     margin-top: @navbar-height;
 }
+
 body {
     background-color: @bg;
+    // from http://subtlepatterns.com/
+    background-image: url("/imgs/wallpaper.png");
+    background-repeat: repeat;
+    padding-bottom: 100px;
 }
 
 .banner-container {
-    color: white;
     min-height: 300px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -33,14 +46,23 @@ body {
     padding-right: @gutter;
     background-color: @reactive;
     h1 {
+        color: white;
         font-size: 7rem;
     }
     p {
+        color: white;
         font-size: 2rem;
     }
     a {
         color: white;
         font-weight: bold;
+    }
+    button.btn {
+        width: 100%;
+    }
+
+    .DayPicker {
+        background-color: white;
     }
 }
 
@@ -51,9 +73,6 @@ ul.custom {
     }
 }
 
-.list-main {
-    background-color: #75CEFE;
-}
 
 @row-height: 80px;
 .list-row {
@@ -84,6 +103,10 @@ ul.custom {
     height : @row-height;
     line-height: @row-height;
     font-size: 2rem;
+    .btns {
+        padding-left: @gutter;
+        background-color: @grey;
+    }
     .btn {
         margin-right: @gutter;
     }
@@ -110,16 +133,32 @@ a.no-decro {
     text-decoration: none;
 }
 
-.btn-bookmark {
-    font-size: 2rem;
-    float: right;
-    color: yellow;
-}
-
-.DayPicker {
-    background-color: #222;
-}
-
 .tiny-link {
     font-size: 2rem;
 }
+
+.detail-title {
+    font-size: 4rem;
+}
+
+
+
+.detail-header {
+    padding: 1rem;
+    background-color: white;
+    height: 6rem;
+    margin-top: 80px;
+    border-bottom: 1px solid #ddd;
+
+    .btn {
+    }
+}
+
+.detail-content {
+    background-color: white;
+    padding-top: 2rem;
+    padding-bottom: @gutter;
+    padding-right: @gutter;
+    padding-left: @gutter;
+}
+
