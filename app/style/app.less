@@ -65,23 +65,49 @@ ul.custom {
     font-size: 2rem;
     .arrow {
         font-size: 1.5rem;
-        color: ;
         background-color: #FFD86E;
         width: @row-height;
         height: @row-height;
         text-align: center;
         line-height: @row-height;
-        float: right;
     }
-}
-
-a.no-decro {
-    text-decoration: none;
 }
 
 .list-row:hover {
     cursor: pointer;
     background-color: #EEEEEE;
+}
+
+.bookmark-row {
+    background-color: white;
+    margin-top: @gutter;
+    height : @row-height;
+    line-height: @row-height;
+    font-size: 2rem;
+    .btn {
+        margin-right: @gutter;
+    }
+}
+
+.bookmark-icon {
+    color: yellow;
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 2rem;
+    background-color: #FFD86E;
+    width: @row-height;
+    height: @row-height;
+    text-align: center;
+    line-height: @row-height;
+}
+
+.bookmark-row:hover {
+    cursor: pointer;
+    background-color: #EEEEEE;
+}
+
+a.no-decro {
+    text-decoration: none;
 }
 
 .btn-bookmark {

@@ -3,14 +3,14 @@ import {connect} from 'react-redux';
 
 import {parseDate, randomPick} from '../lib/helper.jsx';
 
-import Row from './Row.jsx';
+import BookmarkRow from './BookmarkRow.jsx';
 
 const Bookmarks = React.createClass({
   render: function () {
     var bmks = this.props.bookmarks.length > 0 ?
       <div>
-        <ul>{this.props.bookmarks.map(function(bm) {
-          return <li key={bm}><Row title={bm}/></li>
+        <ul className="custom">{this.props.bookmarks.map(function(bm) {
+          return <li key={bm}><BookmarkRow title={bm}/></li>
         })}</ul>
       </div>
       :null;

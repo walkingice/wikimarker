@@ -11,7 +11,7 @@ const Row = React.createClass({
     return <a className="no-decro" onClick={this.onClickRow} href="/#/detail">
       <div className="list-row">
         {this.props.title}
-        <span className="arrow">
+        <span className="arrow pull-right">
           <span className="glyphicon glyphicon-chevron-right"></span>
         </span>
       </div>
