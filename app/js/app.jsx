@@ -12,6 +12,7 @@ import Lists from './comps/Lists.jsx';
 import Bookmarks from './comps/Bookmarks.jsx';
 import Detail from './comps/Detail.jsx';
 import {setStorage, getBookmarks} from './lib/storage.jsx';
+import {useFakeData} from './lib/api.jsx';
 import Logger from './log_middleware.jsx';
 
 import "../style/app.less";
@@ -22,6 +23,8 @@ const routes = <Route component={Layout}>
   <Route path="/detail" components={{main: Detail}} />
   <Redirect from="*" to="/"/>
 </Route>
+
+useFakeData(_WEBPACK_USE_FAKE_DATA_);
 
 let createStoreWithMiddleware = applyMiddleware(Logger)(createStore);
 

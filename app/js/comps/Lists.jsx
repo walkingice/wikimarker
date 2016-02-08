@@ -47,6 +47,8 @@ function updateList (ctx, title) {
   getLinks({title: title}).then(function (links) {
     let pick = randomPick(links);
     ctx.props.setList(pick);
+  }).catch(function (err) {
+    console.log('err' + JSON.stringify(err));
   });
 }
 

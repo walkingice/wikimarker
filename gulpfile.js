@@ -14,6 +14,8 @@ var PORT = 8080,
     OUTPUT = '_build',
     TMP = '_tmp';
 
+var fakeData = false;
+
 gulp.task('jade', function () {
     // render jade files excepts templates
     return gulp.src(['app/**/*.jade', '!app/**/_*.jade'])
@@ -26,6 +28,10 @@ gulp.task("webpack-dev-server", function() {
 
     config.debug = true;
     config.devtool = "#inline-source-map";
+
+    config.plugins.push(new webpack.DefinePlugin({
+        '_WEBPACK_USE_FAKE_DATA_': fakeData
+    }));
 
     var compiler = webpack(config);
 
@@ -72,6 +78,11 @@ gulp.task('build', ['html', 'webpack']);
 gulp.task('dev', ['jade'], function () {
     gulp.watch('app/**/*.jade', ['jade']);
     gulp.start('webpack-dev-server');
+});
+
+gulp.task('dev-fake', ['jade'], function () {
+    fakeData = true;
+    gulp.start('dev');
 });
 
 

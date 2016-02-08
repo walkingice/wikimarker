@@ -1,6 +1,10 @@
 import {expect} from 'chai';
 
-import {getLinks} from '../../../app/js/lib/api';
+import {useFakeData, getLinks, getLinksApi, getContentApi} from '../../../app/js/lib/api';
+
+beforeEach(function () {
+    useFakeData(true);
+});
 
 describe('api.jsx', () => {
     describe('func getLinks', () => {
@@ -23,5 +27,30 @@ describe('api.jsx', () => {
         });
     });
 
+    describe('func getLinksApi', () => {
+        it('Get Taiwan', () => {
+            expect(getLinksApi({title: 'Taiwan'}))
+                .to.equal('https://en.wikipedia.org/w/api.php' +
+                    '?action=parse&prop=links&format=json&page=Taiwan');
+        });
+        it('Get Japan', () => {
+            expect(getLinksApi({title: 'Japan'}))
+                .to.equal('https://en.wikipedia.org/w/api.php' +
+                    '?action=parse&prop=links&format=json&page=Japan');
+        });
+    });
+
+    describe('func getContentApi', () => {
+        it('Get Taiwan', () => {
+            expect(getContentApi({title: 'Taiwan'}))
+                .to.equal('https://en.wikipedia.org/w/api.php' +
+                    '?action=parse&section=0&prop=text&format=json&page=Taiwan');
+        });
+        it('Get Japan', () => {
+            expect(getContentApi({title: 'Japan'}))
+                .to.equal('https://en.wikipedia.org/w/api.php' +
+                    '?action=parse&section=0&prop=text&format=json&page=Japan');
+        });
+    });
 });
 
