@@ -4,6 +4,7 @@
   "description": "A simple web app for wiki bookmark",
   "scripts": {
     "start": "gulp dev",
+    "build": "gulp build",
     "test": "mocha --compilers js:babel-core/register --recursive 'test/**/*.@(js|jsx)'",
     "test:watch": "npm run test -- --watch --watch-extensions jsx"
   },

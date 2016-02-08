@@ -11,6 +11,7 @@ var WebpackDevServer = require("webpack-dev-server");
 var $ = require('gulp-load-plugins')();
 
 var PORT = 8080,
+    OUTPUT = '_build',
     TMP = '_tmp';
 
 gulp.task('jade', function () {
@@ -42,6 +43,16 @@ gulp.task("webpack-dev-server", function() {
     });
 });
 
+gulp.task("webpack", function(callback) {
+    var config = require('./webpack.config');
+    webpack(config, function(err, stats) {
+        if(err) throw new gutil.PluginError("webpack", err);
+        gutil.log("[webpack]", stats.toString({
+        }));
+        callback();
+    });
+});
+
 gulp.task('clean', function () {
     return gulp.src([TMP], { read: false }).pipe($.rimraf());
 });
@@ -49,6 +60,14 @@ gulp.task('clean', function () {
 gulp.task('default', ['clean'], function () {
     gulp.start('dev');
 });
+
+gulp.task('html', ['jade'], function () {
+    return gulp.src([TMP + '/**/*.html'])
+        .pipe(gulp.dest(OUTPUT));
+});
+
+gulp.task('build', ['html', 'webpack']);
+
 
 gulp.task('dev', ['jade'], function () {
     gulp.watch('app/**/*.jade', ['jade']);
