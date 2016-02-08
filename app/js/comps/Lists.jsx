@@ -19,6 +19,11 @@ const Lists = React.createClass({
   },
   render: function () {
     let titleText = this.props.title ? this.props.title : 'Nothing to display';
+    let link = this.props.title ?
+      <a target="_blank" className="tiny-link"
+        href={'https://en.wikipedia.org/wiki/' + this.props.title}>(wiki)</a>
+      : null;
+
     titleText = titleText.replace('_', ' ');
 
     var list = this.props.pages ?
@@ -32,7 +37,7 @@ const Lists = React.createClass({
         <div className="list-main row">
           <div className="col-md-3"></div>
           <div className="col-md-6">
-            <h1 className="page-header">{titleText}</h1>
+            <h1 className="page-header">{titleText} {link}</h1>
             {list}
           </div>
           <div className="col-md-3"></div>
