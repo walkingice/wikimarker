@@ -11,7 +11,8 @@ module.exports = {
     context: __dirname + '/app',
     entry: {
         app: ['./js/app.jsx'],
-        vendor: ['react', 'react-dom', 'react-redux', 'react-router', 'immutable'],
+        vendor: ['react', 'react-dom', 'react-redux', 'react-router',
+            'immutable', 'jquery', 'react-day-picker'],
     },
     module: {
         loaders: [
