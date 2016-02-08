@@ -7,8 +7,10 @@ html
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
     link(rel="stylesheet" href="/app.css")
 
-  body
-    div#app
+  body(data-spy='scroll', data-target='#nav-wrap')
+    div#root
+      include partials/nav
+      div#app
   script(src='/vendor.js')
   script(src='/app.js')
 

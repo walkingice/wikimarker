@@ -5,6 +5,7 @@ import {setListTitle, setList} from '../action_creator.jsx';
 import {parseDate, randomPick} from '../lib/helper.jsx';
 import {getLinks} from '../lib/api.jsx';
 
+import Banner from './Banner.jsx';
 import Row from './Row.jsx';
 
 const Lists = React.createClass({
@@ -17,27 +18,26 @@ const Lists = React.createClass({
     }
   },
   render: function () {
-    var title = this.props.title ?
-      <h1>{this.props.title}</h1>:
-      <h3>No title</h3>;
+    let titleText = this.props.title ? this.props.title : 'Nothing to display';
+    titleText = titleText.replace('_', ' ');
 
     var list = this.props.pages ?
-      <ul>{this.props.pages.map(function(page) {
+      <ul className="custom">{this.props.pages.map(function(page) {
         return <li key={page}><Row title={page}/></li>
       })}</ul>: null;
 
-    var bmks = this.props.bookmarks.length > 0 ?
-      <div>
-        <h1>Bookmarks</h1>
-        <ul>{this.props.bookmarks.map(function(bm) {
-          return <li key={bm}><Row title={bm}/></li>
-        })}</ul>
+    return <div>
+      <Banner title={this.props.title} />
+      <div className="container-fluid">
+        <div className="list-main row">
+          <div className="col-md-3"></div>
+          <div className="col-md-6">
+            <h1 className="page-header">{titleText}</h1>
+            {list}
+          </div>
+          <div className="col-md-3"></div>
+        </div>
       </div>
-      :null;
-
-    return <div>Lists {title}
-      {list}
-      {bmks}
     </div>
   }
 });
@@ -60,7 +60,6 @@ function updatePageTitle(ctx, dateObj) {
 
 function selector (state) {
   return {
-    bookmarks: state.get('bookmarks').toArray(),
     pages: state.get('links').toArray(),
     title: state.get('title')
   }

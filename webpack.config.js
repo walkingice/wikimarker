@@ -10,7 +10,7 @@ var extractLESS = new ExtractTextPlugin('app.css');
 module.exports = {
     context: __dirname + '/app',
     entry: {
-        app: ['./js/index.jsx'],
+        app: ['./js/app.jsx'],
         vendor: ['react', 'react-dom', 'react-redux', 'react-router', 'immutable'],
     },
     module: {

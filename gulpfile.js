@@ -15,7 +15,7 @@ var PORT = 8080,
 
 gulp.task('jade', function () {
     // render jade files excepts templates
-    return gulp.src(['app/**/*.jade'])
+    return gulp.src(['app/**/*.jade', '!app/**/_*.jade'])
         .pipe($.jade())
         .pipe(gulp.dest(TMP + '/'));
 });

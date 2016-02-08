@@ -18,14 +18,25 @@ const Detail = React.createClass({
     let content = this.props.content ?
       <div dangerouslySetInnerHTML={{__html: this.props.content}} />
       :null;
+    let star = this.props.saved ?
+      <span className="glyphicon glyphicon-star"/> :
+      <span className="glyphicon glyphicon-star-empty"/>;
+
     return this.props.pageName ?
-      <div>Detail for {this.props.pageName}
-        <div>saved? <em>{this.props.saved.toString()}</em></div>
-        <button onClick={this.toggle}>Toggle</button>
-        <hr/>
-        {content}
-      </div> :
-      <div>Detail without Page Name</div>;
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-3"></div>
+          <div className="col-md-6">
+            <span className="btn-bookmark label label-danger" onClick={this.toggle}>{star}</span>
+            <h1 className="page-header">{this.props.pageName}</h1>
+            <div id="#detail">
+              {content}
+            </div>
+          </div>
+          <div className="col-md-3"></div>
+        </div>
+      </div>
+      : <div>Detail without Page Name</div>;
   }
 });
 

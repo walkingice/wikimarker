@@ -1,8 +1,92 @@
 @import "~bootstrap/less/bootstrap";
 
-@bg: #FEE;
+@reactive: #1cafff;
+@reactive-heavy: #0088D1;
+@bg: white;
+@gutter: 10px;
 
+// overwrite bootstrap variable
+@navbar-default-bg: #34495E;
+@navbar-default-link-color: white;
+
+#nav {
+    ul {
+        li {
+            float: left;
+        }
+    }
+}
+
+#app {
+    margin-top: @navbar-height;
+}
 body {
     background-color: @bg;
+}
+
+.banner-container {
+    color: white;
+    min-height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: @gutter;
+    padding-right: @gutter;
+    background-color: @reactive;
+    h1 {
+        font-size: 7rem;
+    }
+    p {
+        font-size: 2rem;
+    }
+    a {
+        color: white;
+        font-weight: bold;
+    }
+}
+
+ul.custom {
+    padding: 0px;
+    li {
+        list-style-type: none;
+    }
+}
+
+.list-main {
+    background-color: #75CEFE;
+}
+
+@row-height: 80px;
+.list-row {
+    background-color: white;
+    margin-top: @gutter;
+    height : @row-height;
+    line-height: @row-height;
+    padding-left: 2.5rem;
+    font-size: 2rem;
+    .arrow {
+        font-size: 1.5rem;
+        color: ;
+        background-color: #FFD86E;
+        width: @row-height;
+        height: @row-height;
+        text-align: center;
+        line-height: @row-height;
+        float: right;
+    }
+}
+
+a.no-decro {
+    text-decoration: none;
+}
+
+.list-row:hover {
+    cursor: pointer;
+    background-color: #EEEEEE;
+}
+
+.btn-bookmark {
+    font-size: 2rem;
+    float: right;
+    color: yellow;
 }
 

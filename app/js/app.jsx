@@ -7,24 +7,29 @@ import {fromJS}  from 'immutable';
 
 import Reducer from './reducer.jsx';
 
-import App from './comps/App.jsx';
+import Layout from './comps/Layout.jsx';
 import Lists from './comps/Lists.jsx';
+import Bookmarks from './comps/Bookmarks.jsx';
 import Detail from './comps/Detail.jsx';
-import {setStorage} from './lib/storage.jsx';
+import {setStorage, getBookmarks} from './lib/storage.jsx';
 import Logger from './log_middleware.jsx';
 
 import "../style/app.less";
 
-const routes = <Route component={App}>
-  <Route path="/" component={Lists}/>
-  <Route path="/detail" component={Detail} />
+const routes = <Route component={Layout}>
+  <Route path="/" components={{main: Lists}}/>
+  <Route path="/bookmarks" components={{main: Bookmarks}} />
+  <Route path="/detail" components={{main: Detail}} />
   <Redirect from="*" to="/"/>
 </Route>
 
 let createStoreWithMiddleware = applyMiddleware(Logger)(createStore);
-const store = createStoreWithMiddleware(Reducer, fromJS({links:[], bookmarks:[]}));
 
 setStorage(localStorage);
+let bmks = getBookmarks();
+bmks = bmks ? Object.keys(bmks) : [];
+const store = createStoreWithMiddleware(Reducer, fromJS({links:[], bookmarks: bmks, detail: 'Taiwan'}));
+
 
 ReactDom.render(
   <Provider store={store}>
