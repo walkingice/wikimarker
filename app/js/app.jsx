@@ -31,8 +31,11 @@ let createStoreWithMiddleware = applyMiddleware(Logger)(createStore);
 setStorage(localStorage);
 let bmks = getBookmarks();
 bmks = bmks ? Object.keys(bmks) : [];
-const store = createStoreWithMiddleware(Reducer, fromJS({links:[], bookmarks: bmks, detail: 'Taiwan'}));
+const store = createStoreWithMiddleware(Reducer, fromJS({links:[], bookmarks: bmks, detail: ''}));
 
+// XXX: just for development, should be removed
+import {setDetail} from './action_creator.jsx';
+store.dispatch(setDetail('Taiwan'));
 
 ReactDom.render(
   <Provider store={store}>
