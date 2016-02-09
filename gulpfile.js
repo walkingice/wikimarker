@@ -96,6 +96,6 @@ gulp.task('dev-fake', ['jade'], function () {
 });
 
 gulp.task('deploy', ['build'], function () {
-        return gulp.src('./' + OUTPUT + '/**/*')
+        return gulp.src(['./CNAME', './' + OUTPUT + '/**/*'])
                 .pipe(gdeploy({}));
 });
