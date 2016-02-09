@@ -6,12 +6,22 @@ import {parseDate, randomPick} from '../lib/helper.jsx';
 import BookmarkRow from './BookmarkRow.jsx';
 
 const Bookmarks = React.createClass({
+  getInitialState: function () {
+    return {
+      active: ''
+    }
+  },
+  toggleRow: function (title) {
+    this.setState({active: title});
+  },
   render: function () {
     var bmks = this.props.bookmarks.length > 0 ?
       <div>
         <ul className="custom">{this.props.bookmarks.map(function(bm) {
-          return <li key={bm}><BookmarkRow title={bm}/></li>
-        })}</ul>
+          return <li key={bm}><BookmarkRow title={bm}
+              notifyParent={this.toggleRow}
+              active={this.state.active}/></li>
+        }.bind(this))}</ul>
       </div>
       :null;
 
