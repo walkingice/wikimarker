@@ -4,6 +4,7 @@ var path = require('path');
 
 var gulp = require('gulp');
 var gutil = require("gulp-util");
+var gdeploy = require('gulp-gh-pages');
 var webpack = require("webpack");
 var WebpackDevServer = require("webpack-dev-server");
 
@@ -94,4 +95,7 @@ gulp.task('dev-fake', ['jade'], function () {
     gulp.start('dev');
 });
 
-
+gulp.task('deploy', ['build'], function () {
+        return gulp.src('./' + OUTPUT + '/**/*')
+                .pipe(gdeploy({}));
+});
