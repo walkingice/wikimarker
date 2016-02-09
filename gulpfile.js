@@ -73,7 +73,7 @@ gulp.task('default', ['clean'], function () {
 });
 
 gulp.task('html', ['jade', 'images'], function () {
-    return gulp.src([TMP + '/**/*.html', TMP + '/imgs/**/*'])
+    return gulp.src([TMP + '/**/*.html', TMP + '/**/*.png'])
         .pipe(gulp.dest(OUTPUT));
 });
 
