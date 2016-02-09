@@ -1,6 +1,6 @@
 import {fromJS, Map} from 'immutable';
 
-import {toggleItem, getBookmarks} from './lib/storage.jsx';
+import {saveItem, removeItem, getBookmarks} from './lib/storage.jsx';
 
 function setListTitle (state, title) {
   return state.set('title', title);
@@ -9,7 +9,7 @@ function setListTitle (state, title) {
 function setList (state, links) {
   let bmks = getBookmarks();
   return state.set('links', fromJS(links))
-    .set('bookmarks', fromJS(Object.keys(bmks)));
+    .set('bookmarks', fromJS(bmks));
 }
 
 function setDetail (state, title) {
@@ -22,12 +22,16 @@ function setContent (state, text) {
   return state.set('content', text)
 }
 
-function toggleBookmark (state, bookmark) {
-  toggleItem(bookmark);
+function saveBookmark (state, bookmark, notes) {
+  saveItem(bookmark, notes);
   let bmks = getBookmarks();
-  let exists = !!bmks[bookmark];
-  return state.set('bookmarks', fromJS(Object.keys(bmks)))
-    .set('saved', exists);
+  return state.set('bookmarks', fromJS(bmks));
+}
+
+function removeBookmark (state, bookmark) {
+  removeItem(bookmark);
+  let bmks = getBookmarks();
+  return state.set('bookmarks', fromJS(bmks));
 }
 
 export default function (state = Map(), action) {
@@ -40,8 +44,10 @@ export default function (state = Map(), action) {
       return setDetail(state, action.title);
     case 'SET_CONTENT':
       return setContent(state, action.htmlText);
-    case 'TOGGLE_BOOKMARK':
-      return toggleBookmark(state, action.bookmark);
+    case 'SAVE_BOOKMARK':
+      return saveBookmark(state, action.bookmark, action.notes);
+    case 'REMOVE_BOOKMARK':
+      return removeBookmark(state, action.bookmark);
   }
   return state;
 }

@@ -26,9 +26,17 @@ export function setContent (text) {
   }
 }
 
-export function toggleBookmark (bookmark) {
+export function saveBookmark (bookmark, notes) {
   return {
-    type: 'TOGGLE_BOOKMARK',
+    type: 'SAVE_BOOKMARK',
+    bookmark,
+    notes
+  }
+}
+
+export function removeBookmark (bookmark) {
+  return {
+    type: 'REMOVE_BOOKMARK',
     bookmark
   }
 }

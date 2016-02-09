@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 
-import {toggleBookmark, setDetail} from '../action_creator.jsx';
+import {removeBookmark, setDetail} from '../action_creator.jsx';
 
 const BookmarkRow = React.createClass({
   onClickRow: function (e) {
@@ -15,7 +15,7 @@ const BookmarkRow = React.createClass({
     this.props.setDetail(this.props.title);
   },
   onClickRemove: function (e) {
-    this.props.toggleBookmark(this.props.title);
+    this.props.removeBookmark(this.props.title);
   },
   render: function () {
     let btns = this.props.active === this.props.title ?
@@ -39,4 +39,4 @@ const BookmarkRow = React.createClass({
   }
 });
 
-export default connect(null, {toggleBookmark, setDetail})(BookmarkRow);
+export default connect(null, {removeBookmark, setDetail})(BookmarkRow);

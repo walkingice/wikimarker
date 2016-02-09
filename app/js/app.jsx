@@ -30,7 +30,6 @@ let createStoreWithMiddleware = applyMiddleware(Logger)(createStore);
 
 setStorage(localStorage);
 let bmks = getBookmarks();
-bmks = bmks ? Object.keys(bmks) : [];
 const store = createStoreWithMiddleware(Reducer, fromJS({links:[], bookmarks: bmks, detail: ''}));
 
 // XXX: just for development, should be removed

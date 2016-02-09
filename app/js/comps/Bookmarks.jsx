@@ -16,10 +16,12 @@ const Bookmarks = React.createClass({
     this.setState({active: title});
   },
   render: function () {
-    var bmks = this.props.bookmarks.length > 0 ?
+    let keys = Object.keys(this.props.bookmarks);
+    var bmks = keys.length > 0 ?
       <div>
-        <ul className="custom">{this.props.bookmarks.map(function(bm) {
-          return <li key={bm}><BookmarkRow title={bm}
+        <ul className="custom">{keys.map(function(key) {
+          let item = this.props.bookmarks[key];
+          return <li key={key}><BookmarkRow title={key}
               notifyParent={this.toggleRow}
               active={this.state.active}/></li>
         }.bind(this))}</ul>
@@ -43,7 +45,7 @@ const Bookmarks = React.createClass({
 
 function selector (state) {
   return {
-    bookmarks: state.get('bookmarks').toArray()
+    bookmarks: state.get('bookmarks').toJS()
   }
 }
 

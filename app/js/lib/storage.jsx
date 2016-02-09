@@ -12,14 +12,18 @@ export function getStorage () {
   return _storage;
 }
 
-/* if item not exists, add it. Remove it otherwise*/
-export function toggleItem (item) {
+/* Save item into storage */
+export function saveItem (item, notes) {
   let dict = getBookmarks();
-  if (dict[item]) {
-    delete dict[item];
-  } else {
-    dict[item] = 1;
-  }
+  notes = Array.isArray(notes) ? notes : [];
+  dict[item] = [].concat(notes);
+  saveBookmarks(dict);
+}
+
+/* Remove item from storage */
+export function removeItem (item, notes) {
+  let dict = getBookmarks();
+  delete dict[item];
   saveBookmarks(dict);
 }
 

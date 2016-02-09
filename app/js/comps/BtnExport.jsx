@@ -25,7 +25,7 @@ const BtnExport = React.createClass({
 
 function selector (state) {
   return {
-    bookmarks: state.get('bookmarks').toArray()
+    bookmarks: state.get('bookmarks').toJS()
   }
 }
 
