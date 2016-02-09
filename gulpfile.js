@@ -34,6 +34,9 @@ gulp.task("webpack-dev-server", function() {
     config.debug = true;
     config.devtool = "#inline-source-map";
 
+    // XXX: remove the first one, it should be original DefinePlugin
+    // it needs more love to improve.
+    config.plugins.shift();
     config.plugins.push(new webpack.DefinePlugin({
         '_WEBPACK_USE_FAKE_DATA_': fakeData
     }));

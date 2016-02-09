@@ -40,6 +40,7 @@ module.exports = {
         path: path.resolve(__dirname, output)
     },
     plugins: [
+        new webpack.DefinePlugin({'_WEBPACK_USE_FAKE_DATA_': false}),
         extractLESS,
         new webpack.optimize.CommonsChunkPlugin(/* chunkName= */"vendor",
                                                 /* filename= */"vendor.js")
