@@ -4,6 +4,7 @@ import {connect} from 'react-redux';
 import {parseDate, randomPick} from '../lib/helper.jsx';
 
 import BookmarkRow from './BookmarkRow.jsx';
+import BtnExport from './BtnExport.jsx';
 
 const Bookmarks = React.createClass({
   getInitialState: function () {
@@ -30,7 +31,7 @@ const Bookmarks = React.createClass({
         <div className="list-main row">
           <div className="col-md-3"></div>
           <div className="col-md-6">
-            <h1 className="page-header">Bookmarks</h1>
+            <h1 className="page-header">Bookmarks <BtnExport/></h1>
             {bmks}
           </div>
           <div className="col-md-3"></div>
