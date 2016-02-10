@@ -6935,7 +6935,7 @@ ul.custom li {
   cursor: pointer;
   background-color: #EEEEEE;
 }
-a.no-decro {
+a.no-decor {
   text-decoration: none;
 }
 .tiny-link {
@@ -6951,12 +6951,23 @@ a.no-decro {
   margin-top: 80px;
   border-bottom: 1px solid #ddd;
 }
+.detail-header .label {
+  display: inline-block;
+  margin: 5px;
+}
+.detail-header a {
+  color: inherit;
+}
 .detail-content {
   background-color: white;
   padding-top: 2rem;
   padding-bottom: 10px;
   padding-right: 10px;
   padding-left: 10px;
+}
+.detail-content img {
+  max-width: 150px;
+  margin: 10px;
 }
 .stick-bottom {
   position: fixed;
