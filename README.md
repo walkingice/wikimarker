@@ -10,6 +10,12 @@ Besides this, it also has these features
 * Select text (140 chars) and save it along with bookmark.
 * Export bookmarks as JSON file for back-up.
 
+# Screenshot
+
+![screenshot1](./etc/imgs/selected.png)
+
+Selected text to save it as note.
+
 # Development
 
 ## Setup
@@ -37,12 +43,32 @@ To deploy github-page
 ```bash
 $ npm deploy
 ```
+## View Components
 
-# Screenshot
+* **Lists.jsx** - It is also the index page. Displays random links in rows(**Rows.jsx**) by specific date.
+* **Bookmarks.jsx** - Displays user saved bookmarks(**BookmarkRow.jsx**) and a button(**BtnExport.jsx**) to exports data.
+* **Detail.jsx** - When user chose a Wikipedia-page-title, this page displays corresponding content, categories and images.
 
-![screenshot1](./etc/imgs/selected.png)
+## Data Structure
 
-Selected text to save it as note.
+Redux Store structure
+
+```
+├── title
+├── links
+├── bookmarks
+├── content
+│   ├── categories
+│   ├── images
+│   └── innerHTML
+└── detail
+```
+
+* title - *String* of wikipedia page title. Currently it should be date string, such as 'May\_5', 'November\_1'.
+* links - *Array of String* of wikipedia pages title. Lists-page use it to render rows.
+* bookmarks - *Object* for Bookmarks which saved to local storage. Its key is the title of page, and its value is an array of string for saved **notes**. Bookmarks-page use it to render rows.
+* content - *Object* for Detail-page rendering.
+* detail - *String* of wikipedia page title. To tell Detail-page which one to be processed.
 
 # Todo
 
