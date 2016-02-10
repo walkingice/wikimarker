@@ -6839,6 +6839,9 @@ button.close {
     display: none !important;
   }
 }
+.white {
+  color: white;
+}
 #nav ul li {
   float: left;
 }
@@ -6863,15 +6866,12 @@ body {
   background-color: #1cafff;
 }
 .banner-container h1 {
-  color: white;
   font-size: 7rem;
 }
 .banner-container p {
-  color: white;
   font-size: 2rem;
 }
 .banner-container a {
-  color: white;
   font-weight: bold;
 }
 .banner-container button.btn {

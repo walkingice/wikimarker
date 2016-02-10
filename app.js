@@ -29,39 +29,39 @@ webpackJsonp([0],{
 
 	var _reactRedux = __webpack_require__(286);
 
-	var _immutable = __webpack_require__(296);
+	var _immutable = __webpack_require__(293);
 
-	var _reducer = __webpack_require__(297);
+	var _reducer = __webpack_require__(294);
 
 	var _reducer2 = _interopRequireDefault(_reducer);
 
-	var _Layout = __webpack_require__(299);
+	var _Layout = __webpack_require__(296);
 
 	var _Layout2 = _interopRequireDefault(_Layout);
 
-	var _Lists = __webpack_require__(308);
+	var _Lists = __webpack_require__(305);
 
 	var _Lists2 = _interopRequireDefault(_Lists);
 
-	var _Bookmarks = __webpack_require__(317);
+	var _Bookmarks = __webpack_require__(314);
 
 	var _Bookmarks2 = _interopRequireDefault(_Bookmarks);
 
-	var _Detail = __webpack_require__(323);
+	var _Detail = __webpack_require__(320);
 
 	var _Detail2 = _interopRequireDefault(_Detail);
 
-	var _storage = __webpack_require__(298);
+	var _storage = __webpack_require__(295);
 
-	var _api = __webpack_require__(302);
+	var _api = __webpack_require__(299);
 
-	var _log_middleware = __webpack_require__(324);
+	var _log_middleware = __webpack_require__(321);
 
 	var _log_middleware2 = _interopRequireDefault(_log_middleware);
 
-	__webpack_require__(325);
+	__webpack_require__(322);
 
-	var _action_creator = __webpack_require__(300);
+	var _action_creator = __webpack_require__(297);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -100,7 +100,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 297:
+/***/ 294:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -132,9 +132,9 @@ webpackJsonp([0],{
 	  return state;
 	};
 
-	var _immutable = __webpack_require__(296);
+	var _immutable = __webpack_require__(293);
 
-	var _storage = __webpack_require__(298);
+	var _storage = __webpack_require__(295);
 
 	function setListTitle(state, title) {
 	  return state.set('title', title);
@@ -171,7 +171,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 298:
+/***/ 295:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -241,7 +241,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 299:
+/***/ 296:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -258,13 +258,13 @@ webpackJsonp([0],{
 
 	var _reactRedux = __webpack_require__(286);
 
-	var _action_creator = __webpack_require__(300);
+	var _action_creator = __webpack_require__(297);
 
-	var _helper = __webpack_require__(301);
+	var _helper = __webpack_require__(298);
 
-	var _api = __webpack_require__(302);
+	var _api = __webpack_require__(299);
 
-	var _Row = __webpack_require__(307);
+	var _Row = __webpack_require__(304);
 
 	var _Row2 = _interopRequireDefault(_Row);
 
@@ -289,7 +289,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 300:
+/***/ 297:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -352,7 +352,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 301:
+/***/ 298:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -378,6 +378,7 @@ webpackJsonp([0],{
 	function randomPick(links) {
 	  var limit = arguments.length <= 1 || arguments[1] === undefined ? 10 : arguments[1];
 
+
 	  // only accept alphabet and white-space
 	  var exp = /^[a-zA-Z\s]+$/;
 
@@ -398,7 +399,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 302:
+/***/ 299:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -414,19 +415,19 @@ webpackJsonp([0],{
 	exports.getContentApi = getContentApi;
 	exports.useFakeData = useFakeData;
 
-	var _May_ = __webpack_require__(303);
+	var _May_ = __webpack_require__(300);
 
 	var May5 = _interopRequireWildcard(_May_);
 
-	var _November_ = __webpack_require__(304);
+	var _November_ = __webpack_require__(301);
 
 	var Nov1 = _interopRequireWildcard(_November_);
 
-	var _Detail = __webpack_require__(305);
+	var _Detail = __webpack_require__(302);
 
 	var Detail = _interopRequireWildcard(_Detail);
 
-	var _jquery = __webpack_require__(306);
+	var _jquery = __webpack_require__(303);
 
 	var $ = _interopRequireWildcard(_jquery);
 
@@ -521,7 +522,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 303:
+/***/ 300:
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -6155,7 +6156,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 304:
+/***/ 301:
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -12549,7 +12550,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 305:
+/***/ 302:
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -12564,7 +12565,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 307:
+/***/ 304:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -12581,7 +12582,7 @@ webpackJsonp([0],{
 
 	var _reactRedux = __webpack_require__(286);
 
-	var _action_creator = __webpack_require__(300);
+	var _action_creator = __webpack_require__(297);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12615,7 +12616,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 308:
+/***/ 305:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -12632,17 +12633,17 @@ webpackJsonp([0],{
 
 	var _reactRedux = __webpack_require__(286);
 
-	var _action_creator = __webpack_require__(300);
+	var _action_creator = __webpack_require__(297);
 
-	var _helper = __webpack_require__(301);
+	var _helper = __webpack_require__(298);
 
-	var _api = __webpack_require__(302);
+	var _api = __webpack_require__(299);
 
-	var _Banner = __webpack_require__(309);
+	var _Banner = __webpack_require__(306);
 
 	var _Banner2 = _interopRequireDefault(_Banner);
 
-	var _Row = __webpack_require__(307);
+	var _Row = __webpack_require__(304);
 
 	var _Row2 = _interopRequireDefault(_Row);
 
@@ -12743,7 +12744,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 309:
+/***/ 306:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -12760,15 +12761,15 @@ webpackJsonp([0],{
 
 	var _reactRedux = __webpack_require__(286);
 
-	var _reactDayPicker = __webpack_require__(310);
+	var _reactDayPicker = __webpack_require__(307);
 
 	var _reactDayPicker2 = _interopRequireDefault(_reactDayPicker);
 
-	__webpack_require__(315);
+	__webpack_require__(312);
 
-	var _action_creator = __webpack_require__(300);
+	var _action_creator = __webpack_require__(297);
 
-	var _helper = __webpack_require__(301);
+	var _helper = __webpack_require__(298);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -12806,24 +12807,43 @@ webpackJsonp([0],{
 	            { className: 'col-md-3' },
 	            _react2.default.createElement(
 	              'h1',
-	              null,
+	              { className: 'white' },
 	              'Greeting'
 	            ),
 	            _react2.default.createElement(
 	              'p',
-	              null,
+	              { className: 'white' },
 	              'This is a demo app. It fetch links from a page of ',
 	              _react2.default.createElement(
 	                'a',
-	                { href: 'https://www.wikipedia.org/', target: '_blank' },
+	                { className: 'white', href: 'https://www.wikipedia.org/', target: '_blank' },
 	                'Wikipedia'
 	              ),
 	              '.'
 	            ),
 	            _react2.default.createElement(
 	              'p',
-	              null,
-	              'You could save some links into local storage.'
+	              { className: 'white' },
+	              'You can',
+	              _react2.default.createElement(
+	                'ol',
+	                { className: 'white' },
+	                _react2.default.createElement(
+	                  'li',
+	                  null,
+	                  'Bookmark an interested page'
+	                ),
+	                _react2.default.createElement(
+	                  'li',
+	                  null,
+	                  'Save 140 chars along with bookmark'
+	                ),
+	                _react2.default.createElement(
+	                  'li',
+	                  null,
+	                  'Export your bookmarks'
+	                )
+	              )
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -12860,14 +12880,14 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 315:
+/***/ 312:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
 
-/***/ 317:
+/***/ 314:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -12884,13 +12904,13 @@ webpackJsonp([0],{
 
 	var _reactRedux = __webpack_require__(286);
 
-	var _helper = __webpack_require__(301);
+	var _helper = __webpack_require__(298);
 
-	var _BookmarkRow = __webpack_require__(318);
+	var _BookmarkRow = __webpack_require__(315);
 
 	var _BookmarkRow2 = _interopRequireDefault(_BookmarkRow);
 
-	var _BtnExport = __webpack_require__(319);
+	var _BtnExport = __webpack_require__(316);
 
 	var _BtnExport2 = _interopRequireDefault(_BtnExport);
 
@@ -12968,7 +12988,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 318:
+/***/ 315:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -12985,7 +13005,7 @@ webpackJsonp([0],{
 
 	var _reactRedux = __webpack_require__(286);
 
-	var _action_creator = __webpack_require__(300);
+	var _action_creator = __webpack_require__(297);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -13040,7 +13060,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 319:
+/***/ 316:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -13057,9 +13077,9 @@ webpackJsonp([0],{
 
 	var _reactRedux = __webpack_require__(286);
 
-	var _filesaver = __webpack_require__(320);
+	var _filesaver = __webpack_require__(317);
 
-	__webpack_require__(300);
+	__webpack_require__(297);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -13097,7 +13117,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 323:
+/***/ 320:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -13114,9 +13134,9 @@ webpackJsonp([0],{
 
 	var _reactRedux = __webpack_require__(286);
 
-	var _action_creator = __webpack_require__(300);
+	var _action_creator = __webpack_require__(297);
 
-	var _api = __webpack_require__(302);
+	var _api = __webpack_require__(299);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -13271,7 +13291,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 324:
+/***/ 321:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -13299,7 +13319,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 325:
+/***/ 322:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
