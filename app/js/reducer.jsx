@@ -14,8 +14,7 @@ function setList (state, links) {
 
 function setDetail (state, title) {
   let bmks = getBookmarks();
-  let exists = !!bmks[title];
-  return state.set('detail', title).set('saved', exists);
+  return state.set('detail', title);
 }
 
 function setContent (state, data) {
