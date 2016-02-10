@@ -62,14 +62,28 @@ const Detail = React.createClass({
       <p className="note">{bk[0]}</p>
       :<div className="stick-left">Select interested text to save as note</div>;
 
+    let categories = props.content.categories ?
+      <div>{props.content.categories.map((cg) => {
+        return <span key={cg} className="label label-info">
+          <a className="no-decor" href={'https://en.wikipedia.org/wiki/' + cg} target="_blank">{cg}</a>
+          </span>
+      })}</div>: null;
+
+    let images = props.content.images ?
+      <div className="categories-container">{props.content.images.map((url) => {
+        return <img key={url} src={url} className="img-thumbnail" />
+      })}</div>: null;
+
     let header = <div className="detail-header">
       {star}
       <span className="detail-title">{props.pageName}</span>
       {notes}
+      {categories}
     </div>
     let body = <span>
       {header}
       <div className="detail-content">
+        {images}
         {content}
       </div>
     </span>

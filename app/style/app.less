@@ -148,8 +148,12 @@ a.no-decor {
     min-height: 6rem;
     margin-top: 80px;
     border-bottom: 1px solid #ddd;
-
-    .btn {
+    .label {
+        display: inline-block;
+        margin: 5px;
+    }
+    a {
+        color: inherit;
     }
 }
 
@@ -159,6 +163,11 @@ a.no-decor {
     padding-bottom: @gutter;
     padding-right: @gutter;
     padding-left: @gutter;
+
+    img {
+        max-width: 150px;
+        margin: @gutter;
+    }
 }
 
 .stick-bottom {
