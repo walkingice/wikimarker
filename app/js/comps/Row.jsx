@@ -8,7 +8,7 @@ const Row = React.createClass({
     this.props.setDetail(this.props.title);
   },
   render: function () {
-    return <a className="no-decro" onClick={this.onClickRow} href="/#/detail">
+    return <a className="no-decor" onClick={this.onClickRow} href="/#/detail">
       <div className="list-row">
         {this.props.title}
         <span className="arrow pull-right">
