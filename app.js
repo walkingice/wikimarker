@@ -39,27 +39,27 @@ webpackJsonp([0],{
 
 	var _Layout2 = _interopRequireDefault(_Layout);
 
-	var _Lists = __webpack_require__(305);
+	var _Lists = __webpack_require__(300);
 
 	var _Lists2 = _interopRequireDefault(_Lists);
 
-	var _Bookmarks = __webpack_require__(314);
+	var _Bookmarks = __webpack_require__(317);
 
 	var _Bookmarks2 = _interopRequireDefault(_Bookmarks);
 
-	var _Detail = __webpack_require__(320);
+	var _Detail = __webpack_require__(323);
 
 	var _Detail2 = _interopRequireDefault(_Detail);
 
 	var _storage = __webpack_require__(295);
 
-	var _api = __webpack_require__(299);
+	var _api = __webpack_require__(301);
 
-	var _log_middleware = __webpack_require__(321);
+	var _log_middleware = __webpack_require__(324);
 
 	var _log_middleware2 = _interopRequireDefault(_log_middleware);
 
-	__webpack_require__(322);
+	__webpack_require__(325);
 
 	var _action_creator = __webpack_require__(297);
 
@@ -262,9 +262,7 @@ webpackJsonp([0],{
 
 	var _helper = __webpack_require__(298);
 
-	var _api = __webpack_require__(299);
-
-	var _Row = __webpack_require__(304);
+	var _Row = __webpack_require__(299);
 
 	var _Row2 = _interopRequireDefault(_Row);
 
@@ -409,27 +407,210 @@ webpackJsonp([0],{
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
+
+	var _react = __webpack_require__(72);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactRedux = __webpack_require__(286);
+
+	var _action_creator = __webpack_require__(297);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var Row = _react2.default.createClass({
+	  displayName: 'Row',
+
+	  onClickRow: function onClickRow(e) {
+	    this.props.setDetail(this.props.title);
+	  },
+	  render: function render() {
+	    return _react2.default.createElement(
+	      'a',
+	      { className: 'no-decro', onClick: this.onClickRow, href: '/#/detail' },
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'list-row' },
+	        this.props.title,
+	        _react2.default.createElement(
+	          'span',
+	          { className: 'arrow pull-right' },
+	          _react2.default.createElement('span', { className: 'glyphicon glyphicon-chevron-right' })
+	        )
+	      )
+	    );
+	  }
+	});
+
+	exports.default = (0, _reactRedux.connect)(null, { setDetail: _action_creator.setDetail })(Row);
+
+	/* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Row.jsx" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+
+/***/ },
+
+/***/ 300:
+/***/ function(module, exports, __webpack_require__) {
+
+	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(72);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactRedux = __webpack_require__(286);
+
+	var _action_creator = __webpack_require__(297);
+
+	var _helper = __webpack_require__(298);
+
+	var _api = __webpack_require__(301);
+
+	var _Banner = __webpack_require__(309);
+
+	var _Banner2 = _interopRequireDefault(_Banner);
+
+	var _Row = __webpack_require__(299);
+
+	var _Row2 = _interopRequireDefault(_Row);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var Lists = _react2.default.createClass({
+	  displayName: 'Lists',
+
+	  componentDidMount: function componentDidMount() {
+	    updatePageTitle(this, new Date());
+	  },
+	  componentDidUpdate: function componentDidUpdate(prevProps, prevState) {
+	    if (prevProps.title !== this.props.title) {
+	      updateList(this, this.props.title);
+	    }
+	  },
+	  render: function render() {
+	    var titleText = this.props.title ? this.props.title : 'Nothing to display';
+	    var link = this.props.title ? _react2.default.createElement(
+	      'a',
+	      { target: '_blank', className: 'tiny-link',
+	        href: 'https://en.wikipedia.org/wiki/' + this.props.title },
+	      '(wiki)'
+	    ) : null;
+
+	    titleText = titleText.replace('_', ' ');
+
+	    var list = this.props.pages ? _react2.default.createElement(
+	      'ul',
+	      { className: 'custom' },
+	      this.props.pages.map(function (page) {
+	        return _react2.default.createElement(
+	          'li',
+	          { key: page },
+	          _react2.default.createElement(_Row2.default, { title: page })
+	        );
+	      })
+	    ) : null;
+
+	    return _react2.default.createElement(
+	      'div',
+	      { id: 'list-page' },
+	      _react2.default.createElement(_Banner2.default, { title: this.props.title }),
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'container-fluid' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'list-main row' },
+	          _react2.default.createElement('div', { className: 'col-md-3' }),
+	          _react2.default.createElement(
+	            'div',
+	            { className: 'col-md-6' },
+	            _react2.default.createElement(
+	              'h1',
+	              { className: 'page-header' },
+	              titleText,
+	              ' ',
+	              link
+	            ),
+	            list
+	          ),
+	          _react2.default.createElement('div', { className: 'col-md-3' })
+	        )
+	      )
+	    );
+	  }
+	});
+
+	function updateList(ctx, title) {
+	  //TODO: handle ajax fail.
+	  (0, _api.getLinks)({ page: title }).then(function (links) {
+	    var pick = (0, _helper.randomPick)(links);
+	    ctx.props.setList(pick);
+	  }).catch(function (err) {
+	    console.log('err' + JSON.stringify(err));
+	  });
+	}
+
+	function updatePageTitle(ctx, dateObj) {
+	  var title = (0, _helper.parseDate)(dateObj);
+	  // simulate ajax call
+	  setTimeout(function () {
+	    ctx.props.setListTitle(title);
+	  }, 200);
+	}
+
+	function selector(state) {
+	  return {
+	    pages: state.get('links').toArray(),
+	    title: state.get('title')
+	  };
+	}
+
+	exports.default = (0, _reactRedux.connect)(selector, { setListTitle: _action_creator.setListTitle, setList: _action_creator.setList })(Lists);
+
+	/* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Lists.jsx" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
+
+/***/ },
+
+/***/ 301:
+/***/ function(module, exports, __webpack_require__) {
+
+	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
 	exports.getLinks = getLinks;
 	exports.getContent = getContent;
 	exports.getLinksApi = getLinksApi;
 	exports.getContentApi = getContentApi;
 	exports.useFakeData = useFakeData;
 
-	var _May_ = __webpack_require__(300);
+	var _May_ = __webpack_require__(302);
 
 	var May5 = _interopRequireWildcard(_May_);
 
-	var _November_ = __webpack_require__(301);
+	var _November_ = __webpack_require__(303);
 
 	var Nov1 = _interopRequireWildcard(_November_);
 
-	var _Detail = __webpack_require__(302);
+	var _Detail = __webpack_require__(304);
 
 	var Detail = _interopRequireWildcard(_Detail);
 
-	var _jquery = __webpack_require__(303);
+	var _jquery = __webpack_require__(305);
 
 	var $ = _interopRequireWildcard(_jquery);
+
+	var _querystring = __webpack_require__(306);
+
+	var qs = _interopRequireWildcard(_querystring);
 
 	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
@@ -438,6 +619,8 @@ webpackJsonp([0],{
 	 */
 
 	var _fake = false;
+
+	var _END_POINT = 'https://en.wikipedia.org/w/api.php';
 
 	function drainLinks(data) {
 	  return data.parse.links.map(function (item) {
@@ -493,24 +676,37 @@ webpackJsonp([0],{
 
 	/* return a promise */
 	function getLinks(param) {
-	  param.lang = param.lang ? param.lang : 'en';
+	  var lang = arguments.length <= 1 || arguments[1] === undefined ? 'en' : arguments[1];
+
 	  return _fake ? getLinksFake(param) : getLinksAjax(param);
 	}
 
 	/* return a promise */
 	function getContent(param) {
-	  param.lang = param.lang ? param.lang : 'en';
+	  var lang = arguments.length <= 1 || arguments[1] === undefined ? 'en' : arguments[1];
+
 	  return _fake ? getContentFake(param) : getContentAjax(param);
 	}
 
+	var linkParam = {
+	  action: 'parse',
+	  format: 'json',
+	  prop: 'links'
+	};
 	function getLinksApi(param) {
-	  var t = 'https://en.wikipedia.org/w/api.php' + '?action=parse&prop=links&format=json&page=';
-	  return t + param.title;
+	  var p = Object.assign({}, linkParam, param);
+	  return _END_POINT + '?' + qs.stringify(p);
 	}
 
+	var contentParam = {
+	  action: 'parse',
+	  format: 'json',
+	  section: 0,
+	  prop: 'text'
+	};
 	function getContentApi(param) {
-	  var t = 'https://en.wikipedia.org/w/api.php' + '?action=parse&section=0&prop=text&format=json&page=';
-	  return t + param.title;
+	  var p = Object.assign({}, contentParam, param);
+	  return _END_POINT + '?' + qs.stringify(p);
 	}
 
 	function useFakeData(fake) {
@@ -522,7 +718,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 300:
+/***/ 302:
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -6156,7 +6352,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 301:
+/***/ 303:
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -12550,7 +12746,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 302:
+/***/ 304:
 /***/ function(module, exports) {
 
 	module.exports = {
@@ -12565,7 +12761,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 304:
+/***/ 309:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -12582,190 +12778,11 @@ webpackJsonp([0],{
 
 	var _reactRedux = __webpack_require__(286);
 
-	var _action_creator = __webpack_require__(297);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	var Row = _react2.default.createClass({
-	  displayName: 'Row',
-
-	  onClickRow: function onClickRow(e) {
-	    this.props.setDetail(this.props.title);
-	  },
-	  render: function render() {
-	    return _react2.default.createElement(
-	      'a',
-	      { className: 'no-decro', onClick: this.onClickRow, href: '/#/detail' },
-	      _react2.default.createElement(
-	        'div',
-	        { className: 'list-row' },
-	        this.props.title,
-	        _react2.default.createElement(
-	          'span',
-	          { className: 'arrow pull-right' },
-	          _react2.default.createElement('span', { className: 'glyphicon glyphicon-chevron-right' })
-	        )
-	      )
-	    );
-	  }
-	});
-
-	exports.default = (0, _reactRedux.connect)(null, { setDetail: _action_creator.setDetail })(Row);
-
-	/* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Row.jsx" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
-
-/***/ },
-
-/***/ 305:
-/***/ function(module, exports, __webpack_require__) {
-
-	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _react = __webpack_require__(72);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _reactRedux = __webpack_require__(286);
-
-	var _action_creator = __webpack_require__(297);
-
-	var _helper = __webpack_require__(298);
-
-	var _api = __webpack_require__(299);
-
-	var _Banner = __webpack_require__(306);
-
-	var _Banner2 = _interopRequireDefault(_Banner);
-
-	var _Row = __webpack_require__(304);
-
-	var _Row2 = _interopRequireDefault(_Row);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	var Lists = _react2.default.createClass({
-	  displayName: 'Lists',
-
-	  componentDidMount: function componentDidMount() {
-	    updatePageTitle(this, new Date());
-	  },
-	  componentDidUpdate: function componentDidUpdate(prevProps, prevState) {
-	    if (prevProps.title !== this.props.title) {
-	      updateList(this, this.props.title);
-	    }
-	  },
-	  render: function render() {
-	    var titleText = this.props.title ? this.props.title : 'Nothing to display';
-	    var link = this.props.title ? _react2.default.createElement(
-	      'a',
-	      { target: '_blank', className: 'tiny-link',
-	        href: 'https://en.wikipedia.org/wiki/' + this.props.title },
-	      '(wiki)'
-	    ) : null;
-
-	    titleText = titleText.replace('_', ' ');
-
-	    var list = this.props.pages ? _react2.default.createElement(
-	      'ul',
-	      { className: 'custom' },
-	      this.props.pages.map(function (page) {
-	        return _react2.default.createElement(
-	          'li',
-	          { key: page },
-	          _react2.default.createElement(_Row2.default, { title: page })
-	        );
-	      })
-	    ) : null;
-
-	    return _react2.default.createElement(
-	      'div',
-	      { id: 'list-page' },
-	      _react2.default.createElement(_Banner2.default, { title: this.props.title }),
-	      _react2.default.createElement(
-	        'div',
-	        { className: 'container-fluid' },
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'list-main row' },
-	          _react2.default.createElement('div', { className: 'col-md-3' }),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'col-md-6' },
-	            _react2.default.createElement(
-	              'h1',
-	              { className: 'page-header' },
-	              titleText,
-	              ' ',
-	              link
-	            ),
-	            list
-	          ),
-	          _react2.default.createElement('div', { className: 'col-md-3' })
-	        )
-	      )
-	    );
-	  }
-	});
-
-	function updateList(ctx, title) {
-	  //TODO: handle ajax fail.
-	  (0, _api.getLinks)({ title: title }).then(function (links) {
-	    var pick = (0, _helper.randomPick)(links);
-	    ctx.props.setList(pick);
-	  }).catch(function (err) {
-	    console.log('err' + JSON.stringify(err));
-	  });
-	}
-
-	function updatePageTitle(ctx, dateObj) {
-	  var title = (0, _helper.parseDate)(dateObj);
-	  // simulate ajax call
-	  setTimeout(function () {
-	    ctx.props.setListTitle(title);
-	  }, 200);
-	}
-
-	function selector(state) {
-	  return {
-	    pages: state.get('links').toArray(),
-	    title: state.get('title')
-	  };
-	}
-
-	exports.default = (0, _reactRedux.connect)(selector, { setListTitle: _action_creator.setListTitle, setList: _action_creator.setList })(Lists);
-
-	/* REACT HOT LOADER */ }).call(this); } finally { if (false) { (function () { var foundReactClasses = module.hot.data && module.hot.data.foundReactClasses || false; if (module.exports && module.makeHot) { var makeExportsHot = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/makeExportsHot.js"); if (makeExportsHot(module, require("react"))) { foundReactClasses = true; } var shouldAcceptModule = true && foundReactClasses; if (shouldAcceptModule) { module.hot.accept(function (err) { if (err) { console.error("Cannot not apply hot update to " + "Lists.jsx" + ": " + err.message); } }); } } module.hot.dispose(function (data) { data.makeHot = module.makeHot; data.foundReactClasses = foundReactClasses; }); })(); } }
-
-/***/ },
-
-/***/ 306:
-/***/ function(module, exports, __webpack_require__) {
-
-	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _react = __webpack_require__(72);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _reactRedux = __webpack_require__(286);
-
-	var _reactDayPicker = __webpack_require__(307);
+	var _reactDayPicker = __webpack_require__(310);
 
 	var _reactDayPicker2 = _interopRequireDefault(_reactDayPicker);
 
-	__webpack_require__(312);
+	__webpack_require__(315);
 
 	var _action_creator = __webpack_require__(297);
 
@@ -12824,25 +12841,25 @@ webpackJsonp([0],{
 	            _react2.default.createElement(
 	              'p',
 	              { className: 'white' },
-	              'You can',
+	              'You can'
+	            ),
+	            _react2.default.createElement(
+	              'ol',
+	              { className: 'white' },
 	              _react2.default.createElement(
-	                'ol',
-	                { className: 'white' },
-	                _react2.default.createElement(
-	                  'li',
-	                  null,
-	                  'Bookmark an interested page'
-	                ),
-	                _react2.default.createElement(
-	                  'li',
-	                  null,
-	                  'Save 140 chars along with bookmark'
-	                ),
-	                _react2.default.createElement(
-	                  'li',
-	                  null,
-	                  'Export your bookmarks'
-	                )
+	                'li',
+	                null,
+	                'Bookmark an interested page'
+	              ),
+	              _react2.default.createElement(
+	                'li',
+	                null,
+	                'Save 140 chars along with bookmark'
+	              ),
+	              _react2.default.createElement(
+	                'li',
+	                null,
+	                'Export your bookmarks'
 	              )
 	            )
 	          ),
@@ -12880,14 +12897,14 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 312:
+/***/ 315:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
 
 /***/ },
 
-/***/ 314:
+/***/ 317:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -12906,11 +12923,11 @@ webpackJsonp([0],{
 
 	var _helper = __webpack_require__(298);
 
-	var _BookmarkRow = __webpack_require__(315);
+	var _BookmarkRow = __webpack_require__(318);
 
 	var _BookmarkRow2 = _interopRequireDefault(_BookmarkRow);
 
-	var _BtnExport = __webpack_require__(316);
+	var _BtnExport = __webpack_require__(319);
 
 	var _BtnExport2 = _interopRequireDefault(_BtnExport);
 
@@ -12988,7 +13005,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 315:
+/***/ 318:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -13060,7 +13077,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 316:
+/***/ 319:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -13077,7 +13094,7 @@ webpackJsonp([0],{
 
 	var _reactRedux = __webpack_require__(286);
 
-	var _filesaver = __webpack_require__(317);
+	var _filesaver = __webpack_require__(320);
 
 	__webpack_require__(297);
 
@@ -13117,7 +13134,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 320:
+/***/ 323:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -13136,7 +13153,7 @@ webpackJsonp([0],{
 
 	var _action_creator = __webpack_require__(297);
 
-	var _api = __webpack_require__(299);
+	var _api = __webpack_require__(301);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -13260,7 +13277,7 @@ webpackJsonp([0],{
 	});
 
 	function updateContent(ctx, title) {
-	  (0, _api.getContent)({ title: title }).then(function (htmlText) {
+	  (0, _api.getContent)({ page: title }).then(function (htmlText) {
 	    ctx.props.setContent(htmlText);
 	  });
 	}
@@ -13291,7 +13308,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 321:
+/***/ 324:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* REACT HOT LOADER */ if (false) { (function () { var ReactHotAPI = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-api/modules/index.js"), RootInstanceProvider = require("/mnt/msata/walkingice/code/jp/wikimarker/node_modules/react-hot-loader/RootInstanceProvider.js"), ReactMount = require("react/lib/ReactMount"), React = require("react"); module.makeHot = module.hot.data ? module.hot.data.makeHot : ReactHotAPI(function () { return RootInstanceProvider.getRootInstances(ReactMount); }, React); })(); } try { (function () {
@@ -13319,7 +13336,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 322:
+/***/ 325:
 /***/ function(module, exports) {
 
 	// removed by extract-text-webpack-plugin
