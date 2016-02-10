@@ -96,7 +96,7 @@ const Detail = React.createClass({
 });
 
 function updateContent(ctx, page) {
-  getContent({page}).then(function (data) {
+  getContent({titles: page}).then(function (data) {
     ctx.props.setContent(data);
   });
 }
