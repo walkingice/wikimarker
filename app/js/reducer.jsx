@@ -18,8 +18,8 @@ function setDetail (state, title) {
   return state.set('detail', title).set('saved', exists);
 }
 
-function setContent (state, text) {
-  return state.set('content', text)
+function setContent (state, data) {
+  return state.set('content', fromJS(data))
 }
 
 function saveBookmark (state, bookmark, notes) {
@@ -43,7 +43,7 @@ export default function (state = Map(), action) {
     case 'SET_DETAIL':
       return setDetail(state, action.title);
     case 'SET_CONTENT':
-      return setContent(state, action.htmlText);
+      return setContent(state, action.data);
     case 'SAVE_BOOKMARK':
       return saveBookmark(state, action.bookmark, action.notes);
     case 'REMOVE_BOOKMARK':

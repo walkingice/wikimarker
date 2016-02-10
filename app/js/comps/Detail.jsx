@@ -46,8 +46,8 @@ const Detail = React.createClass({
       return null;
     }
 
-    let content = props.content ?
-      <div dangerouslySetInnerHTML={{__html: props.content}} />
+    let content = props.content.innerHTML?
+      <div dangerouslySetInnerHTML={{__html: props.content.innerHTML}} />
         :null;
     let bk = props.bookmarks[props.pageName];
     let star = bk ?
@@ -95,9 +95,9 @@ const Detail = React.createClass({
   }
 });
 
-function updateContent(ctx, title) {
-  getContent({page: title}).then(function (htmlText) {
-    ctx.props.setContent(htmlText);
+function updateContent(ctx, page) {
+  getContent({page}).then(function (data) {
+    ctx.props.setContent(data);
   });
 }
 
@@ -112,9 +112,10 @@ function clearSelection () {
 }
 
 function selector (state) {
+  let content = !!state.get('content') ? state.get('content').toJS() : {};
   return {
     bookmarks: state.get('bookmarks').toJS(),
-    content: state.get('content'),
+    content,
     pageName: state.get('detail')
   }
 }

@@ -36,7 +36,7 @@ function getContentFake (param) {
 
   return new Promise((resolve, reject) => {
     setTimeout(function () {
-      resolve(Detail.parse.text['*']);
+      resolve({innerHTML: Detail.parse.text['*']});
     }, delay);
   });
 }
@@ -61,7 +61,9 @@ function getLinksAjax (param) {
 
 function getContentAjax (param) {
   return getAjax(getContentApi(param), function (resp) {
-    return resp.parse.text['*'];
+    return {
+      innerHTML: resp.parse.text['*']
+    };
   });
 }
 

@@ -19,10 +19,10 @@ export function setDetail (title) {
   }
 }
 
-export function setContent (text) {
+export function setContent (data) {
   return {
     type: 'SET_CONTENT',
-    htmlText: text
+    data
   }
 }
 
