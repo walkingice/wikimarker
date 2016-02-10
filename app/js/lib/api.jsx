@@ -3,12 +3,15 @@ import * as Nov1 from '../data/November_1';
 import * as Detail from '../data/Detail';
 
 import * as $ from 'jquery';
+import * as qs from 'querystring';
 
 /**
  * A layer to fetch data from Wikipedia.
  */
 
 var _fake = false;
+
+const _END_POINT = 'https://en.wikipedia.org/w/api.php';
 
 function drainLinks(data) {
   return data.parse.links.map(function (item) {
@@ -21,7 +24,7 @@ function getLinksFake (param) {
 
   return new Promise((resolve, reject) => {
     setTimeout(function () {
-      let odd = (param.title.length % 2) === 0;
+      let odd = (param.page.length % 2) === 0;
       let links = odd ? drainLinks(May5) : drainLinks(Nov1);
       resolve(links);
     }, delay);
@@ -63,27 +66,34 @@ function getContentAjax (param) {
 }
 
 /* return a promise */
-export function getLinks (param) {
-  param.lang = param.lang ?  param.lang : 'en';
+export function getLinks (param, lang='en') {
   return _fake ? getLinksFake(param) : getLinksAjax(param);
 }
 
 /* return a promise */
-export function getContent(param) {
-  param.lang = param.lang ?  param.lang : 'en';
+export function getContent(param, lang='en') {
   return _fake ? getContentFake(param) : getContentAjax(param);
 }
 
+const linkParam = {
+  action: 'parse',
+  format: 'json',
+  prop: 'links'
+};
 export function getLinksApi (param) {
-  let t = 'https://en.wikipedia.org/w/api.php' +
-    '?action=parse&prop=links&format=json&page=';
-  return t + param.title;
+  let p = Object.assign({}, linkParam, param);
+  return _END_POINT + '?' + qs.stringify(p);
 }
 
+const contentParam = {
+  action: 'parse',
+  format: 'json',
+  section: 0,
+  prop: 'text'
+};
 export function getContentApi (param) {
-  let t = 'https://en.wikipedia.org/w/api.php' +
-    '?action=parse&section=0&prop=text&format=json&page=';
-  return t + param.title;
+  let p = Object.assign({}, contentParam, param);
+  return _END_POINT + '?' + qs.stringify(p);
 }
 
 export function useFakeData (fake) {

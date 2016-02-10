@@ -49,7 +49,7 @@ const Lists = React.createClass({
 
 function updateList (ctx, title) {
   //TODO: handle ajax fail.
-  getLinks({title: title}).then(function (links) {
+  getLinks({page: title}).then(function (links) {
     let pick = randomPick(links);
     ctx.props.setList(pick);
   }).catch(function (err) {

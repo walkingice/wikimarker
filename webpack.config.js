@@ -12,7 +12,8 @@ module.exports = {
     entry: {
         app: ['./js/app.jsx'],
         vendor: ['react', 'react-dom', 'react-redux', 'react-router',
-            'immutable', 'jquery', 'react-day-picker', 'filesaver.js'],
+            'immutable', 'jquery', 'react-day-picker', 'filesaver.js',
+            'querystring'],
     },
     module: {
         loaders: [

@@ -49,6 +49,7 @@
     "jquery": "^2.2.0",
     "less": "^2.6.0",
     "less-loader": "^2.2.2",
+    "querystring": "^0.2.0",
     "react": "^0.14.7",
     "react-day-picker": "^1.2.0",
     "react-dom": "^0.14.7",

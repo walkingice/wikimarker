@@ -29,27 +29,27 @@ describe('api.jsx', () => {
 
     describe('func getLinksApi', () => {
         it('Get Taiwan', () => {
-            expect(getLinksApi({title: 'Taiwan'}))
+            expect(getLinksApi({page: 'Taiwan'}))
                 .to.equal('https://en.wikipedia.org/w/api.php' +
-                    '?action=parse&prop=links&format=json&page=Taiwan');
+                    '?action=parse&format=json&prop=links&page=Taiwan');
         });
         it('Get Japan', () => {
-            expect(getLinksApi({title: 'Japan'}))
+            expect(getLinksApi({page: 'Japan'}))
                 .to.equal('https://en.wikipedia.org/w/api.php' +
-                    '?action=parse&prop=links&format=json&page=Japan');
+                    '?action=parse&format=json&prop=links&page=Japan');
         });
     });
 
     describe('func getContentApi', () => {
         it('Get Taiwan', () => {
-            expect(getContentApi({title: 'Taiwan'}))
+            expect(getContentApi({page: 'Taiwan'}))
                 .to.equal('https://en.wikipedia.org/w/api.php' +
-                    '?action=parse&section=0&prop=text&format=json&page=Taiwan');
+                    '?action=parse&format=json&section=0&prop=text&page=Taiwan');
         });
         it('Get Japan', () => {
-            expect(getContentApi({title: 'Japan'}))
+            expect(getContentApi({page: 'Japan'}))
                 .to.equal('https://en.wikipedia.org/w/api.php' +
-                    '?action=parse&section=0&prop=text&format=json&page=Japan');
+                    '?action=parse&format=json&section=0&prop=text&page=Japan');
         });
     });
 });

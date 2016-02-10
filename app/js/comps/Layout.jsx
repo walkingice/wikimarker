@@ -3,7 +3,6 @@ import {connect} from 'react-redux';
 
 import {setListTitle, setList} from '../action_creator.jsx';
 import {parseDate, randomPick} from '../lib/helper.jsx';
-import {getLinks} from '../lib/api.jsx';
 
 import Row from './Row.jsx';
 
