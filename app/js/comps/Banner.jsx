@@ -30,13 +30,18 @@ const Banner = React.createClass ({
           <div className="row">
             <div className="col-md-3"></div>
             <div className="col-md-3">
-              <h1>Greeting</h1>
-              <p>
-                This is a demo app. It fetch links from a page of <a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a>.
+              <h1 className="white">Greeting</h1>
+              <p className="white">
+                This is a demo app. It fetch links from a page of <a className="white" href="https://www.wikipedia.org/" target="_blank">Wikipedia</a>.
               </p>
-              <p>
-                You could save some links into local storage.
+              <p className="white">
+                You can
               </p>
+              <ol className="white">
+                <li>Bookmark an interested page</li>
+                <li>Save 140 chars along with bookmark</li>
+                <li>Export your bookmarks</li>
+              </ol>
             </div>
             <div className="col-md-3">
               <DayPicker
