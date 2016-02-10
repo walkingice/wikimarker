@@ -41,30 +41,32 @@ function getContentFake (param) {
   });
 }
 
-function getAjax (url, parser) {
+/* Return built-in Promise */
+function getAjax (url) {
+  // Wikipedia API only accept jsonp
   return new Promise((resolve, reject) => {
     $.ajax({
       url,
       jsonp: 'callback',
       dataType: 'jsonp'
-    }).then(function (resp) {
-      resolve(parser(resp));
-    }, reject);
+    }).then(resolve, reject);
   });
 }
 
 function getLinksAjax (param) {
-  return getAjax(getLinksApi(param), function (resp) {
-    return drainLinks(resp);
-  });
+  return getAjax(getLinksApi(param))
+    .then((resp) => {
+      return drainLinks(resp);
+    });
 }
 
 function getContentAjax (param) {
-  return getAjax(getContentApi(param), function (resp) {
-    return {
-      innerHTML: resp.parse.text['*']
-    };
-  });
+  return getAjax(getContentApi(param))
+    .then((resp) => {
+      return {
+        innerHTML: resp.parse.text['*']
+      }
+    });
 }
 
 /* return a promise */
