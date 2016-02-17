@@ -18,7 +18,7 @@ function getLinksFake (param) {
   let delay = 600;
 
   return new Promise((resolve, reject) => {
-    setTimeout(function () {
+    setTimeout(() => {
       let odd = (param.page.length % 2) === 0;
       let links = odd ? rslvLinks(May5) : rslvLinks(Nov1);
       resolve(links);
@@ -30,7 +30,7 @@ function getContentFake (param) {
   let delay = 600;
 
   return new Promise((resolve, reject) => {
-    setTimeout(function () {
+    setTimeout(() => {
       let page = rslvPage(Detail);
       let categories = rslvCategories(Detail);
       // Useless. We already cached needed data as 'Images.json'
@@ -216,7 +216,5 @@ function rslvImgsUrl(resp) {
 }
 
 function rslvLinks(resp) {
-  return resp.parse.links.map(function (item) {
-    return item['*'];
-  });
+  return resp.parse.links.map((item) => item['*']);
 }

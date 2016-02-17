@@ -15,9 +15,7 @@ export function randomPick(links, limit = 10) {
   // only accept alphabet and white-space
   let exp = /^[a-zA-Z\s]+$/;
 
-  let ls = links.filter(function (val) {
-    return exp.test(val);
-  });
+  let ls = links.filter((val) => exp.test(val));
 
   let output = [];
   while(ls.length !== 0 && output.length < limit) {

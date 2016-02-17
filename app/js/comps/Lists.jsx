@@ -27,7 +27,7 @@ const Lists = React.createClass({
     titleText = titleText.replace('_', ' ');
 
     var list = this.props.pages ?
-      <ul className="custom">{this.props.pages.map(function(page) {
+      <ul className="custom">{this.props.pages.map((page) => {
         return <li key={page}><Row title={page}/></li>
       })}</ul>: null;
 
@@ -49,10 +49,10 @@ const Lists = React.createClass({
 
 function updateList (ctx, title) {
   //TODO: handle ajax fail.
-  getLinks({page: title}).then(function (links) {
+  getLinks({page: title}).then((links) => {
     let pick = randomPick(links);
     ctx.props.setList(pick);
-  }).catch(function (err) {
+  }).catch((err) => {
     console.log('err' + JSON.stringify(err));
   });
 }
@@ -60,7 +60,7 @@ function updateList (ctx, title) {
 function updatePageTitle(ctx, dateObj) {
   let title = parseDate(dateObj);
   // simulate ajax call
-  setTimeout(function () {
+  setTimeout(() => {
     ctx.props.setListTitle(title);
   }, 200);
 }
