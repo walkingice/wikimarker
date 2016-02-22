@@ -203,3 +203,34 @@ p.note {
     bottom: 0px;
     left: 0px;
 }
+
+/******* animations *******/
+
+@fade-duration: 200ms;
+
+.fade-enter {
+    opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity @fade-duration ease-in;
+}
+
+.fade-appear {
+    opacity: 0.01;
+}
+
+.fade-appear.fade-appear-active {
+    opacity: 1;
+    transition: opacity @fade-duration ease-in;
+}
+
+.fade-leave {
+    opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+    opacity: 0.01;
+    transition: opacity @fade-duration ease-in;
+}

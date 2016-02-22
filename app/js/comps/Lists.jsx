@@ -1,5 +1,6 @@
 import React from 'react';
 import {connect} from 'react-redux';
+import ReactCSSTransGrp from 'react-addons-css-transition-group';
 
 import {setListTitle, setList} from '../action_creator.jsx';
 import {parseDate, randomPick} from '../lib/helper.jsx';
@@ -27,9 +28,13 @@ const Lists = React.createClass({
     titleText = titleText.replace('_', ' ');
 
     var list = this.props.pages ?
-      <ul className="custom">{this.props.pages.map((page) => {
+      <ReactCSSTransGrp className="custom" component="ul"
+        transitionName="fade"
+        transitionEnterTimeout={300} transitionLeaveTimeout={300}
+        transitionAppear={true} transitionAppearTimeout={300}>
+        {this.props.pages.map((page) => {
         return <li key={page}><Row title={page}/></li>
-      })}</ul>: null;
+      })}</ReactCSSTransGrp>: null;
 
     return <div id="list-page">
       <Banner title={this.props.title} />
