@@ -41,7 +41,7 @@ $ npm run test:watch  # monitor file changes
 To deploy github-page
 
 ```bash
-$ npm deploy
+$ npm run deploy
 ```
 ## View Components
 
