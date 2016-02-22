@@ -35,6 +35,9 @@ gulp.task("webpack-dev-server", function() {
     config.debug = true;
     config.devtool = "#inline-source-map";
 
+    config.entry.app.unshift("webpack-dev-server/client?http://localhost:" + PORT,
+                             "webpack/hot/dev-server");
+
     // XXX: remove the first one, it should be original DefinePlugin
     // it needs more love to improve.
     config.plugins.shift();
@@ -42,13 +45,15 @@ gulp.task("webpack-dev-server", function() {
         '_WEBPACK_USE_FAKE_DATA_': fakeData
     }));
 
+    config.plugins.push(new webpack.HotModuleReplacementPlugin());
+
     var compiler = webpack(config);
 
     // https://github.com/webpack/docs/wiki/webpack-dev-server
     new WebpackDevServer(compiler, {
         contentBase: TMP,
-        hot: true,
         progress: true,
+        hot: true,
         stats: {
             colors: true
         }
