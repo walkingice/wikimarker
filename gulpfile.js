@@ -55,6 +55,7 @@ gulp.task("webpack-dev-server", function() {
         progress: true,
         hot: true,
         stats: {
+            cached: false,
             colors: true
         }
     }).listen(PORT, "localhost", function(err) {
