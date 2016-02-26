@@ -1,30 +1,35 @@
 import React from 'react';
-import {connect} from 'react-redux';
 
 import './Banner.less';
 import DayPicker, { DateUtils } from "react-day-picker";
 import "react-day-picker/lib/style.css";
 
-import {setListTitle} from '../../action_creator.jsx';
 import {parseDate} from '../../lib/helper.jsx';
 
-const Banner = React.createClass ({
-  onDayClick: function (e, day) {
+class Banner extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      'chosen': props.title
+    }
+  }
+
+  onDayClick(e, day) {
     let date = parseDate(new Date(day));
     this.setState({'chosen': date});
-  },
-  onApply: function (e) {
-    if (!!this.state.chosen && this.props.title !== this.state.chosen) {
-      this.props.setListTitle(this.state.chosen);
+  }
+
+  onApplyClick(e) {
+    if (!!this.state.chosen && (this.props.title !== this.state.chosen)) {
+      this.props.onApply(this.state.chosen);
     }
-  },
-  componentWillReceiveProps: function (nextProps) {
+  }
+
+  componentWillReceiveProps(nextProps) {
     this.setState({'chosen': nextProps.title});
-  },
-  getInitialState: function () {
-    return {'chosen': this.props.title};
-  },
-  render () {
+  }
+
+  render() {
     return (
       <div className="banner-container">
         <div className="container-fluid">
@@ -46,9 +51,9 @@ const Banner = React.createClass ({
             </div>
             <div className="col-md-3">
               <DayPicker
-                onDayClick={this.onDayClick}
+                onDayClick={this.onDayClick.bind(this)}
               />
-              <button className="btn btn-success" onClick={this.onApply}
+              <button className="btn btn-success" onClick={this.onApplyClick.bind(this)}
                 disabled={this.props.title === this.state.chosen}>
                 Apply
               </button>
@@ -61,13 +66,6 @@ const Banner = React.createClass ({
       </div>
     )
   }
-});
-
-export default Banner;
-function selector (state) {
-  return {
-    title: state.get('title')
-  }
 }
 
-export default connect(selector, {setListTitle})(Banner);
+export default Banner;

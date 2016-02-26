@@ -1,37 +1,42 @@
 import React from 'react';
-import {connect} from 'react-redux';
 
 import './BookmarkRow.less';
 
-import {removeBookmark, setDetail} from '../../action_creator.jsx';
+class BookmarkRow extends React.Component {
+  constructor(props) {
+    super(props);
+  }
 
-const BookmarkRow = React.createClass({
-  onClickRow: function (e) {
+  onClickRow(e) {
     // If myself is activated, deactivate myself.
     // Otherwise, to activate myself and notify siblings..
     let msg = this.props.active === this.props.title ?
       '' : this.props.title;
-    this.props.notifyParent(msg);
-  },
-  onClickGo: function () {
-    this.props.setDetail(this.props.title);
-  },
-  onClickRemove: function (e) {
-    this.props.removeBookmark(this.props.title);
-  },
-  render: function () {
+    this.props.onActive(msg);
+  }
+
+  onClickGo() {
+    this.props.onUpdateDetail(this.props.title);
+  }
+
+  onClickRemove(e) {
+    this.props.onRemove(this.props.title);
+  }
+
+  render() {
     let btns = this.props.active === this.props.title ?
       <span className="btns pull-right">
-        <button className="btn btn-danger" onClick={this.onClickRemove}>
+        <button className="btn btn-danger" onClick={this.onClickRemove.bind(this)}>
           <span className="glyphicon glyphicon-remove"></span>
         </button>
-        <a className="btn btn-default" href="/#/detail" onClick={this.onClickGo}>
+        <a className="btn btn-default" href="/#/detail"
+          onClick={this.onClickGo.bind(this)}>
           <span className="glyphicon glyphicon-chevron-right"></span>
         </a>
       </span>
       :null;
 
-    return <div className="bookmark-row" onClick={this.onClickRow}>
+    return <div className="bookmark-row" onClick={this.onClickRow.bind(this)}>
       <span className="bookmark-icon">
         <span className="glyphicon glyphicon-star"></span>
       </span>
@@ -39,6 +44,6 @@ const BookmarkRow = React.createClass({
         {btns}
     </div>
   }
-});
+}
 
-export default connect(null, {removeBookmark, setDetail})(BookmarkRow);
+export default BookmarkRow;

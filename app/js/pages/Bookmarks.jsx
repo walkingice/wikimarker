@@ -4,8 +4,8 @@ import ReactCSSTransGrp from 'react-addons-css-transition-group';
 
 import {parseDate, randomPick} from '../lib/helper.jsx';
 
-import BookmarkRow from '../comps/BookmarkRow/BookmarkRow.jsx';
-import BtnExport from '../comps/BtnExport/BtnExport.jsx';
+import BookmarkRow from '../containers/BookmarkRow.jsx';
+import BtnExport from '../containers/BtnExport.jsx';
 
 const Bookmarks = React.createClass({
   getInitialState: function () {

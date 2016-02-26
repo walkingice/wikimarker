@@ -1,16 +1,14 @@
 import React from 'react';
-import {connect} from 'react-redux';
 
 import './Row.less';
 
-import {setDetail} from '../../action_creator.jsx';
+class Row extends React.Component {
+  onClickRow(e) {
+    this.props.onUpdateDetail(this.props.title);
+  }
 
-const Row = React.createClass({
-  onClickRow: function (e) {
-    this.props.setDetail(this.props.title);
-  },
-  render: function () {
-    return <a className="no-decor" onClick={this.onClickRow} href="/#/detail">
+  render() {
+    return <a className="no-decor" onClick={this.onClickRow.bind(this)} href="/#/detail">
       <div className="list-row">
         {this.props.title}
         <span className="arrow pull-right">
@@ -19,6 +17,6 @@ const Row = React.createClass({
       </div>
     </a>
   }
-});
+}
 
-export default connect(null, {setDetail})(Row);
+export default Row;

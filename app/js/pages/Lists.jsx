@@ -6,8 +6,8 @@ import {setListTitle, setList} from '../action_creator.jsx';
 import {parseDate, randomPick} from '../lib/helper.jsx';
 import {getLinks} from '../lib/api.jsx';
 
-import Banner from '../comps/Banner/Banner.jsx';
-import Row from '../comps/Row/Row.jsx';
+import Banner from '../containers/Banner.jsx';
+import Row from '../containers/Row.jsx';
 
 const Lists = React.createClass({
   componentDidMount: function () {
