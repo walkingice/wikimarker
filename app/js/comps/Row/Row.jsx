@@ -1,7 +1,9 @@
 import React from 'react';
 import {connect} from 'react-redux';
 
-import {setDetail} from '../action_creator.jsx';
+import './Row.less';
+
+import {setDetail} from '../../action_creator.jsx';
 
 const Row = React.createClass({
   onClickRow: function (e) {

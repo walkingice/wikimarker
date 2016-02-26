@@ -7,10 +7,10 @@ import {fromJS}  from 'immutable';
 
 import Reducer from './reducer.jsx';
 
-import Layout from './comps/Layout.jsx';
-import Lists from './comps/Lists.jsx';
-import Bookmarks from './comps/Bookmarks.jsx';
-import Detail from './comps/Detail.jsx';
+import Layout from './pages/Layout.jsx';
+import Lists from './pages/Lists.jsx';
+import Bookmarks from './pages/Bookmarks.jsx';
+import Detail from './pages/Detail.jsx';
 import {setStorage, getBookmarks} from './lib/storage.jsx';
 import {useFakeData} from './lib/api.jsx';
 import Logger from './log_middleware.jsx';

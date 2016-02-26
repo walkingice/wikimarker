@@ -1,10 +1,4 @@
 import React from 'react';
-import {connect} from 'react-redux';
-
-import {setListTitle, setList} from '../action_creator.jsx';
-import {parseDate, randomPick} from '../lib/helper.jsx';
-
-import Row from './Row.jsx';
 
 const Layout = React.createClass ({
   render () {

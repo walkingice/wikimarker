@@ -1,0 +1,33 @@
+@import '../../../style/style.less';
+
+.bookmark-row {
+    background-color: white;
+    margin-top: @gutter;
+    height : @row-height;
+    line-height: @row-height;
+    font-size: 2rem;
+    .btns {
+        padding-left: @gutter;
+        background-color: @grey;
+    }
+    .btn {
+        margin-right: @gutter;
+    }
+}
+
+.bookmark-icon {
+    color: yellow;
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 2rem;
+    background-color: #FFD86E;
+    width: @row-height;
+    height: @row-height;
+    text-align: center;
+    line-height: @row-height;
+}
+
+.bookmark-row:hover {
+    cursor: pointer;
+    background-color: #EEEEEE;
+}

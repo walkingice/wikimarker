@@ -2,7 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {saveAs} from 'filesaver.js';
 
-import {} from '../action_creator.jsx';
+import {} from '../../action_creator.jsx';
 
 const BtnExport = React.createClass({
   save: function () {

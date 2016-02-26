@@ -1,18 +1,5 @@
 @import "~bootstrap/less/bootstrap";
-
-@reactive: #1cafff;
-@reactive-heavy: #0088D1;
-@bg: white;
-@gutter: 10px;
-@list-bg-color: #75CEFE;
-@grey: #bdc3c7;
-
-// overwrite bootstrap variable
-@navbar-default-bg: @reactive;
-@navbar-default-link-hover-color: white;
-@navbar-default-link-hover-bg: @reactive-heavy;
-@navbar-default-link-active-bg: white;
-@navbar-default-link-color: white;
+@import "./style";
 
 .white {
     color: white;
@@ -42,92 +29,11 @@ body {
     padding-bottom: 100px;
 }
 
-.banner-container {
-    min-height: 300px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: @gutter;
-    padding-right: @gutter;
-    background-color: @reactive;
-    h1 {
-        font-size: 7rem;
-    }
-    p {
-        font-size: 2rem;
-    }
-    a {
-        font-weight: bold;
-    }
-    button.btn {
-        width: 100%;
-    }
-
-    .DayPicker {
-        background-color: white;
-    }
-}
-
 ul.custom {
     padding: 0px;
     li {
         list-style-type: none;
     }
-}
-
-
-@row-height: 80px;
-.list-row {
-    background-color: white;
-    margin-top: @gutter;
-    height : @row-height;
-    line-height: @row-height;
-    padding-left: 2.5rem;
-    font-size: 2rem;
-    .arrow {
-        font-size: 1.5rem;
-        background-color: #FFD86E;
-        width: @row-height;
-        height: @row-height;
-        text-align: center;
-        line-height: @row-height;
-    }
-}
-
-.list-row:hover {
-    cursor: pointer;
-    background-color: #EEEEEE;
-}
-
-.bookmark-row {
-    background-color: white;
-    margin-top: @gutter;
-    height : @row-height;
-    line-height: @row-height;
-    font-size: 2rem;
-    .btns {
-        padding-left: @gutter;
-        background-color: @grey;
-    }
-    .btn {
-        margin-right: @gutter;
-    }
-}
-
-.bookmark-icon {
-    color: yellow;
-    display: inline-block;
-    margin-right: 1rem;
-    font-size: 2rem;
-    background-color: #FFD86E;
-    width: @row-height;
-    height: @row-height;
-    text-align: center;
-    line-height: @row-height;
-}
-
-.bookmark-row:hover {
-    cursor: pointer;
-    background-color: #EEEEEE;
 }
 
 a.no-decor {

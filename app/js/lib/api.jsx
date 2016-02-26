@@ -1,7 +1,7 @@
-import * as May5 from '../data/May_5';
-import * as Nov1 from '../data/November_1';
-import * as Detail from '../data/Detail';
-import * as Images from '../data/Images';
+import * as May5 from '../../fake/May_5';
+import * as Nov1 from '../../fake/November_1';
+import * as Detail from '../../fake/Detail';
+import * as Images from '../../fake/Images';
 
 import * as $ from 'jquery';
 import * as qs from 'querystring';

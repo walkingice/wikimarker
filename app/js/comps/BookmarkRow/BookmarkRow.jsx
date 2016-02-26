@@ -1,7 +1,9 @@
 import React from 'react';
 import {connect} from 'react-redux';
 
-import {removeBookmark, setDetail} from '../action_creator.jsx';
+import './BookmarkRow.less';
+
+import {removeBookmark, setDetail} from '../../action_creator.jsx';
 
 const BookmarkRow = React.createClass({
   onClickRow: function (e) {

@@ -1,11 +1,12 @@
 import React from 'react';
 import {connect} from 'react-redux';
 
+import './Banner.less';
 import DayPicker, { DateUtils } from "react-day-picker";
 import "react-day-picker/lib/style.css";
 
-import {setListTitle} from '../action_creator.jsx';
-import {parseDate} from '../lib/helper.jsx';
+import {setListTitle} from '../../action_creator.jsx';
+import {parseDate} from '../../lib/helper.jsx';
 
 const Banner = React.createClass ({
   onDayClick: function (e, day) {
