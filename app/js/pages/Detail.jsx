@@ -1,15 +1,24 @@
 import React from 'react';
 import {connect} from 'react-redux';
 
+import Meta from '../comps/Detail/Meta.jsx';
+import Images from '../comps/Detail/Images.jsx';
+import Sticker from '../comps/Detail/Sticker.jsx';
+import Content from '../comps/Detail/Content.jsx';
 import {saveBookmark, removeBookmark, setContent} from '../action_creator.jsx';
 
 import {getContent} from '../lib/api.jsx';
 
-const Detail = React.createClass({
-  getInitialState: function () {
-    return { selection: ''};
-  },
-  toggle: function (e) {
+class Container extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      selection: ''
+    }
+  }
+
+  onToggle(e) {
     let name = this.props.pageName;
     let bk = this.props.bookmarks[name];
     if (bk) {
@@ -19,103 +28,75 @@ const Detail = React.createClass({
     } else {
       this.props.saveBookmark(name);
     }
-  },
-  componentDidMount: function () {
+  }
+
+  componentDidMount() {
     if (!!this.props.pageName) {
-      updateContent(this, this.props.pageName);
+      this.updateContent(this.props.pageName);
     }
-  },
-  saveNote: function () {
+  }
+
+  updateContent(pageName) {
+    getContent({titles: pageName}).then((data) => {
+      this.props.setContent(data);
+    });
+  }
+
+  saveNote() {
     this.props.saveBookmark(this.props.pageName,
                            [this.state.selection]);
     clearSelection();
     this.setState({selection: ''});
-  },
-  onMouseUp: function (e) {
+  }
+
+  onMouseUp(e) {
     // delay. in case of user clicking the selected-area to clear selection
     // but browser fire event before real clear.
-    setTimeout(function () {
-      // only save 140 chars. Twitter rules!
-      let selection = window.getSelection().toString().substr(0, 140);
-      this.setState({selection});
-    }.bind(this), 10);
-  },
-  render: function () {
+    setTimeout(() => {
+      /* If click arbitrary area to clear selection, state should be updated. */
+      if (!window.getSelection().toString()) {
+        this.onSelect(null);
+      }
+    });
+  }
+
+  onSelect(selection) {
+    this.setState({selection});
+  }
+
+  render() {
     let props = this.props;
     if (!props.content) {
       return null;
     }
 
-    let content = props.content.innerHTML?
-      <div dangerouslySetInnerHTML={{__html: props.content.innerHTML}} />
-        :null;
-    let bk = props.bookmarks[props.pageName];
-    let star = bk ?
-      <span className="btn btn-success btn-sm pull-right" onClick={this.toggle}>
-        <i className="glyphicon glyphicon-star"></i>Bookmark
-      </span> :
-      <span className="btn btn-default btn-sm pull-right" onClick={this.toggle}>
-        <i className="glyphicon glyphicon-star-empty"></i>Bookmark
-      </span>;
-
-    let notes = (Array.isArray(bk) && bk.length > 0) ?
-      <p className="note">{bk[0]}</p>
-      :<div className="stick-left">Select interested text to save as note</div>;
-
-    let categories = props.content.categories ?
-      <div>{props.content.categories.map((cg) => {
-        return <span key={cg} className="label label-info">
-          <a className="no-decor" href={'https://en.wikipedia.org/wiki/' + cg} target="_blank">{cg}</a>
-          </span>
-      })}</div>: null;
-
-    let images = props.content.images ?
-      <div className="categories-container">{props.content.images.map((url) => {
-        return <img key={url} src={url} className="img-thumbnail" />
-      })}</div>: null;
-
-    let header = <div className="detail-header">
-      {star}
-      <span className="detail-title">{props.pageName}</span>
-      {notes}
-      {categories}
-    </div>
-    let body = <span>
-      {header}
-      <div className="detail-content">
-        {images}
-        {content}
-      </div>
-    </span>
-
-    let stick = this.state.selection ?
-      <div className="stick-bottom">
-        <button className="btn btn-default btn-lg center-block" onClick={this.saveNote}>
-          <i className="glyphicon glyphicon-pencil" />
-          save note</button>
-      </div>: null;
-
-
-    let container = <div onMouseUp={this.onMouseUp} className="container-fluid">
-      {stick}
+    return <div className="container-fluid" onMouseUp={this.onMouseUp.bind(this)}>
+      <Sticker
+        selection={this.state.selection}
+        saveNote={this.saveNote.bind(this)} />
       <div className="row">
         <div className="col-md-3"></div>
-        <div className="col-md-6">{body}</div>
+        <div className="col-md-6">
+          <Meta
+            bookmarks={this.props.bookmarks}
+            pageName={this.props.pageName}
+            onToggleBookmark={this.onToggle.bind(this)}
+            categories={this.props.content.categories}
+          />
+          <div className="detail-content">
+            <Images images={this.props.content.images} />
+            <Content
+              innerHTML={this.props.content.innerHTML}
+              onSelect={this.onSelect.bind(this)} />
+          </div>
+        </div>
         <div className="col-md-3"></div>
       </div>
     </div>;
-
-    return container;
   }
-});
-
-function updateContent(ctx, page) {
-  getContent({titles: page}).then(function (data) {
-    ctx.props.setContent(data);
-  });
 }
 
-function clearSelection () {
+function clearSelection() {
   if (window.getSelection) {
     if (window.getSelection().empty) {  // Chrome
       window.getSelection().empty();
@@ -125,7 +106,7 @@ function clearSelection () {
   }
 }
 
-function selector (state) {
+function selector(state) {
   let content = !!state.get('content') ? state.get('content').toJS() : {};
   return {
     bookmarks: state.get('bookmarks').toJS(),
@@ -134,4 +115,4 @@ function selector (state) {
   }
 }
 
-export default connect(selector, {saveBookmark, removeBookmark, setContent})(Detail);
+export default connect(selector, {saveBookmark, removeBookmark, setContent})(Container);
