@@ -32,4 +32,12 @@ class Container extends React.Component {
   }
 }
 
+Container.propTypes = {
+  notifyParent: React.PropTypes.func,
+  setDetail: React.PropTypes.func,
+  removeBookmark: React.PropTypes.func,
+  title: React.PropTypes.string,
+  active: React.PropTypes.string
+}
+
 export default connect(null, {removeBookmark, setDetail})(Container);

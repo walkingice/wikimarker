@@ -29,3 +29,9 @@ export default class Meta extends React.Component {
   }
 }
 
+Meta.propTypes = {
+  bookmarks: React.PropTypes.object,
+  categories: React.PropTypes.array,
+  pageName: React.PropTypes.string,
+  onToggleBookmark: React.PropTypes.func
+}

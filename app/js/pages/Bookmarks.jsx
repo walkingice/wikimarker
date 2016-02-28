@@ -57,4 +57,8 @@ function selector (state) {
   }
 }
 
+Bookmarks.propTypes = {
+  bookmarks: React.PropTypes.object
+}
+
 export default connect(selector, {})(Bookmarks);

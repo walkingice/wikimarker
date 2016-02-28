@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Notes.less';
 
-class Notes extends React.Component {
+export default class Notes extends React.Component {
   render() {
     let bks = this.props.bookmarks;
     return (Array.isArray(bks) && bks.length > 0) ?
@@ -11,4 +11,6 @@ class Notes extends React.Component {
   }
 }
 
-export default Notes;
+Notes.propTypes = {
+  bookmarks: React.PropTypes.array
+}

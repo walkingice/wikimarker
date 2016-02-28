@@ -1,6 +1,6 @@
 import React from 'react';
 
-class BtnExport extends React.Component {
+export default class BtnExport extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -15,4 +15,7 @@ class BtnExport extends React.Component {
   }
 }
 
-export default BtnExport;
+BtnExport.propTypes = {
+  disabled: React.PropTypes.bool,
+  onBtnClick: React.PropTypes.func
+};

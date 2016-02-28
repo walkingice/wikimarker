@@ -10,3 +10,7 @@ export default class Images extends React.Component {
       })}</div>: null;
   }
 }
+
+Images.propTypes = {
+  images: React.PropTypes.array
+}

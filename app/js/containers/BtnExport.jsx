@@ -11,7 +11,7 @@ class Container extends React.Component {
   }
 
   save() {
-    if (this.props.bookmarks.length === 0) {
+    if (Object.keys(this.props.bookmarks).length === 0) {
       return;
     }
     let blob = new Blob([JSON.stringify(this.props.bookmarks, null, 2)],
@@ -31,6 +31,10 @@ function selector (state) {
   return {
     bookmarks: state.get('bookmarks').toJS()
   }
+}
+
+Container.propTypes = {
+  bookmarks: React.PropTypes.object
 }
 
 export default connect(selector, {})(Container);

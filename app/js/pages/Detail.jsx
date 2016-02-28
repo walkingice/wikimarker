@@ -115,4 +115,12 @@ function selector(state) {
   }
 }
 
+Container.propTypes = {
+  pageName: React.PropTypes.string,
+  bookmarks: React.PropTypes.object,
+  content: React.PropTypes.object,
+  setContent: React.PropTypes.func,
+  saveBookmark: React.PropTypes.func
+}
+
 export default connect(selector, {saveBookmark, removeBookmark, setContent})(Container);

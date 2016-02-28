@@ -46,4 +46,11 @@ class BookmarkRow extends React.Component {
   }
 }
 
+BookmarkRow.propTypes = {
+  active: React.PropTypes.string,
+  title: React.PropTypes.string,
+  onUpdateDetail: React.PropTypes.func,
+  onRemove: React.PropTypes.func
+}
+
 export default BookmarkRow;

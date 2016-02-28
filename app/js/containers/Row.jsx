@@ -21,4 +21,9 @@ class Container extends React.Component {
   }
 }
 
+Container.propTypes = {
+  title: React.PropTypes.string,
+  setDetail: React.PropTypes.func
+}
+
 export default connect(null, {setDetail})(Container);

@@ -27,4 +27,9 @@ function selector (state) {
   }
 }
 
+Container.propTypes = {
+  title: React.PropTypes.string,
+  setListTitle: React.PropTypes.func
+}
+
 export default connect(selector, {setListTitle})(Container);

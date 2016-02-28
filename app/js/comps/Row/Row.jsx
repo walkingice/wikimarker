@@ -19,4 +19,9 @@ class Row extends React.Component {
   }
 }
 
+Row.propTypes = {
+  title: React.PropTypes.string,
+  onUpdateDetail: React.PropTypes.func
+}
+
 export default Row;

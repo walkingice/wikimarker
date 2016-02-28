@@ -20,3 +20,8 @@ export default class Content extends React.Component {
       : null;
   }
 }
+
+Content.propTypes = {
+  onSelect: React.PropTypes.func,
+  innerHTML: React.PropTypes.string
+}

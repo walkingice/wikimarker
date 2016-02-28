@@ -77,4 +77,9 @@ function selector (state) {
   }
 }
 
+Lists.propTypes = {
+  title: React.PropTypes.string,
+  pages: React.PropTypes.array
+}
+
 export default connect(selector, {setListTitle, setList})(Lists);

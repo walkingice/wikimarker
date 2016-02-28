@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Sticker.less';
 
-class Sticker extends React.Component {
+export default class Sticker extends React.Component {
   render() {
     return this.props.selection ?
       <div className="stick-bottom">
@@ -14,4 +14,7 @@ class Sticker extends React.Component {
   }
 }
 
-export default Sticker;
+Sticker.propTypes = {
+  selection: React.PropTypes.string,
+  saveNote: React.PropTypes.func
+}
