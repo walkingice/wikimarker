@@ -7,15 +7,15 @@ import {parseDate, randomPick} from '../lib/helper.jsx';
 import {getLinks} from '../lib/api.jsx';
 
 import Banner from '../containers/Banner.jsx';
-import Row from '../containers/Row.jsx';
+import LinkRow from '../containers/LinkRow.jsx';
 
-const Lists = React.createClass({
+const Links = React.createClass({
   componentDidMount: function () {
     updatePageTitle(this, new Date());
   },
   componentDidUpdate: function (prevProps, prevState) {
     if (prevProps.title !== this.props.title) {
-      updateList(this, this.props.title);
+      updateLinks(this, this.props.title);
     }
   },
   render: function () {
@@ -27,23 +27,23 @@ const Lists = React.createClass({
 
     titleText = titleText.replace('_', ' ');
 
-    var list = this.props.pages ?
+    let rows = this.props.links ?
       <ReactCSSTransGrp className="custom" component="ul"
         transitionName="fade"
         transitionEnterTimeout={300} transitionLeaveTimeout={300}
         transitionAppear={true} transitionAppearTimeout={300}>
-        {this.props.pages.map((page) => {
-        return <li key={page}><Row title={page}/></li>
+        {this.props.links.map((page) => {
+        return <li key={page}><LinkRow title={page}/></li>
       })}</ReactCSSTransGrp>: null;
 
-    return <div id="list-page">
+    return <div>
       <Banner title={this.props.title} />
       <div className="container-fluid">
-        <div className="list-main row">
+        <div className="row">
           <div className="col-md-3"></div>
           <div className="col-md-6">
             <h1 className="page-header">{titleText} {link}</h1>
-            {list}
+            {rows}
           </div>
           <div className="col-md-3"></div>
         </div>
@@ -52,7 +52,7 @@ const Lists = React.createClass({
   }
 });
 
-function updateList (ctx, title) {
+function updateLinks(ctx, title) {
   //TODO: handle ajax fail.
   getLinks({page: title}).then((links) => {
     let pick = randomPick(links);
@@ -72,14 +72,14 @@ function updatePageTitle(ctx, dateObj) {
 
 function selector (state) {
   return {
-    pages: state.get('links').toArray(),
+    links: state.get('links').toArray(),
     title: state.get('title')
   }
 }
 
-Lists.propTypes = {
+Links.propTypes = {
   title: React.PropTypes.string,
-  pages: React.PropTypes.array
+  links: React.PropTypes.array
 }
 
-export default connect(selector, {setListTitle, setList})(Lists);
+export default connect(selector, {setListTitle, setList})(Links);

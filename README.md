@@ -45,7 +45,7 @@ $ npm run deploy
 ```
 ## View Components
 
-* **Lists.jsx** - It is also the index page. Displays random links in rows(**Rows.jsx**) by specific date.
+* **Links.jsx** - It is also the index page. Displays random links in rows(**Rows.jsx**) by specific date.
 * **Bookmarks.jsx** - Displays user saved bookmarks(**BookmarkRow.jsx**) and a button(**BtnExport.jsx**) to exports data.
 * **Detail.jsx** - When user chose a Wikipedia-page-title, this page displays corresponding content, categories and images.
 
@@ -65,7 +65,7 @@ Redux Store structure
 ```
 
 * title - *String* of wikipedia page title. Currently it should be date string, such as 'May\_5', 'November\_1'.
-* links - *Array of String* of wikipedia pages title. Lists-page use it to render rows.
+* links - *Array of String* of wikipedia pages title. Links-page use it to render rows.
 * bookmarks - *Object* for Bookmarks which saved to local storage. Its key is the title of page, and its value is an array of string for saved **notes**. Bookmarks-page use it to render rows.
 * content - *Object* for Detail-page rendering.
 * detail - *String* of wikipedia page title. To tell Detail-page which one to be processed.

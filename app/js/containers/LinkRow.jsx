@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 
-import Row from '../comps/Row/Row.jsx';
+import LinkRow from '../comps/LinkRow/LinkRow.jsx';
 import {setDetail} from '../action_creator.jsx';
 
 class Container extends React.Component {
@@ -14,7 +14,7 @@ class Container extends React.Component {
   }
 
   render() {
-    return <Row
+    return <LinkRow
       title={this.props.title}
       onUpdateDetail={this.onDetail.bind(this)}
     />

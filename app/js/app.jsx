@@ -8,7 +8,7 @@ import {fromJS}  from 'immutable';
 import Reducer from './reducer.jsx';
 
 import Layout from './pages/Layout.jsx';
-import Lists from './pages/Lists.jsx';
+import Links from './pages/Links.jsx';
 import Bookmarks from './pages/Bookmarks.jsx';
 import Detail from './pages/Detail.jsx';
 import {setStorage, getBookmarks} from './lib/storage.jsx';
@@ -18,7 +18,7 @@ import Logger from './log_middleware.jsx';
 import "../style/app.less";
 
 const routes = <Route component={Layout}>
-  <Route path="/" components={{main: Lists}}/>
+  <Route path="/" components={{main: Links}}/>
   <Route path="/bookmarks" components={{main: Bookmarks}} />
   <Route path="/detail" components={{main: Detail}} />
   <Redirect from="*" to="/"/>
