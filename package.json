@@ -44,7 +44,6 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
     "filesaver.js": "^0.2.0",
-    "history": "^2.0.0",
     "immutable": "^3.7.6",
     "jquery": "^2.2.0",
     "less": "^2.6.0",
@@ -55,7 +54,7 @@
     "react-day-picker": "^1.2.0",
     "react-dom": "^0.14.7",
     "react-redux": "^4.4.0",
-    "react-router": "^1.0.3",
+    "react-router": "^2.0.0",
     "redux": "^3.3.0",
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.7"

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import {Router, Route, Redirect} from 'react-router'
+import {Router, Route, Redirect, IndexRoute, hashHistory} from 'react-router'
 import {createStore, applyMiddleware} from 'redux';
 import {Provider} from 'react-redux';
 import {fromJS}  from 'immutable';
@@ -17,13 +17,6 @@ import Logger from './log_middleware.jsx';
 
 import "../style/app.less";
 
-const routes = <Route component={Layout}>
-  <Route path="/" components={{main: Links}}/>
-  <Route path="/bookmarks" components={{main: Bookmarks}} />
-  <Route path="/detail" components={{main: Detail}} />
-  <Redirect from="*" to="/"/>
-</Route>
-
 useFakeData(_WEBPACK_USE_FAKE_DATA_);
 
 let createStoreWithMiddleware = applyMiddleware(Logger)(createStore);
@@ -38,8 +31,12 @@ store.dispatch(setDetail('Taiwan'));
 
 ReactDom.render(
   <Provider store={store}>
-    <Router>
-      {routes}
+    <Router history={hashHistory}>
+      <Route path="/" component={Layout}>
+        <Route path="bookmarks" components={Bookmarks} />
+        <Route path="detail" components={Detail} />
+        <IndexRoute components={Links}/>
+      </Route>
     </Router>
   </Provider>,
   document.getElementById('app')

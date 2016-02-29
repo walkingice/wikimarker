@@ -72,8 +72,8 @@ Redux Store structure
 
 # Todo
 
-* fix inlined Wikipedia link problem in Detail page.
 * i18n
 * More test for Redux-flow and Components
 * More ES6 syntax and more functional programming style.
 * UI hint for AJAX delay, or animation effect.
+* Involve browserHistory for routing
