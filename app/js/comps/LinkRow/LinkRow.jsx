@@ -10,10 +10,10 @@ class LinkRow extends React.Component {
   render() {
     return <a className="no-decor" onClick={this.onClickRow.bind(this)} href="/#/detail">
       <div className="link-row">
-        {this.props.title}
         <span className="arrow pull-right">
           <span className="glyphicon glyphicon-chevron-right"></span>
         </span>
+        {this.props.title}
       </div>
     </a>
   }

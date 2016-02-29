@@ -40,8 +40,8 @@ class BookmarkRow extends React.Component {
       <span className="bookmark-icon">
         <span className="glyphicon glyphicon-star"></span>
       </span>
-        {this.props.title}
         {btns}
+        {this.props.title}
     </div>
   }
 }
