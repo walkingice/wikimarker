@@ -14307,8 +14307,8 @@ webpackJsonp([0],{
 	            _react2.default.createElement(
 	              'h1',
 	              { className: 'page-header' },
-	              'Bookmarks ',
-	              _react2.default.createElement(_BtnExport2.default, null)
+	              'Bookmarks',
+	              _react2.default.createElement(_BtnExport2.default, { bookmarks: this.props.bookmarks })
 	            ),
 	            bmks
 	          ),
@@ -14577,7 +14577,7 @@ webpackJsonp([0],{
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(_BtnExport2.default, {
-	        onBtnClick: this.save,
+	        onBtnClick: this.save.bind(this),
 	        disabled: this.props.bookmarks.length === 0
 	      });
 	    }
