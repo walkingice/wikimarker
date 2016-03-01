@@ -41,7 +41,9 @@ const Bookmarks = React.createClass({
         <div className="list-main row">
           <div className="col-md-3"></div>
           <div className="col-md-6">
-            <h1 className="page-header">Bookmarks <BtnExport/></h1>
+            <h1 className="page-header">Bookmarks
+              <BtnExport bookmarks={this.props.bookmarks}/>
+            </h1>
             {bmks}
           </div>
           <div className="col-md-3"></div>

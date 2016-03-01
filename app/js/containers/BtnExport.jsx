@@ -21,7 +21,7 @@ class Container extends React.Component {
 
   render() {
     return <BtnExport
-      onBtnClick={this.save}
+      onBtnClick={this.save.bind(this)}
       disabled={this.props.bookmarks.length === 0}
     />
   }
